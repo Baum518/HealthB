@@ -1,0 +1,288 @@
+2016-06-29 22:33:54  [ main:966 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-29 22:33:54  [ main:1016 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-29 22:33:54  [ main:1036 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-06-29 22:33:54  [ main:1048 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-06-29 22:33:54  [ main:1213 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 22:33:54  [ main:1214 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 22:33:54  [ main:1558 ] - [ INFO ]  HHH000221: Reading mappings from resource: demo/entity/demoEntity.hbm.xml
+2016-06-29 22:33:54  [ main:1575 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 22:33:54  [ main:1577 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 22:33:54  [ main:1621 ] - [ INFO ]  HHH000221: Reading mappings from resource: demo/entity/demoEntity.hbm.xml
+2016-06-29 22:34:58  [ main:652 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-29 22:34:58  [ main:691 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-29 22:34:58  [ main:709 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-06-29 22:34:58  [ main:722 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-06-29 22:34:58  [ main:896 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 22:34:58  [ main:897 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 22:34:59  [ main:1204 ] - [ INFO ]  HHH000221: Reading mappings from resource: demo/entity/demoEntity.hbm.xml
+2016-06-29 22:34:59  [ main:1216 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 22:34:59  [ main:1217 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 22:34:59  [ main:1246 ] - [ INFO ]  HHH000221: Reading mappings from resource: demo/entity/demoEntity.hbm.xml
+2016-06-29 22:38:05  [ main:705 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-29 22:38:05  [ main:747 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-29 22:38:05  [ main:774 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-06-29 22:38:05  [ main:789 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-06-29 22:38:05  [ main:919 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 22:38:05  [ main:920 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 22:38:05  [ main:1239 ] - [ INFO ]  HHH000221: Reading mappings from resource: me.groupb.model.User
+2016-06-29 22:38:05  [ main:1253 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 22:38:05  [ main:1255 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 22:38:05  [ main:1276 ] - [ INFO ]  HHH000221: Reading mappings from resource: me.groupb.model.User
+2016-06-29 22:44:52  [ main:741 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-29 22:44:52  [ main:793 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-29 22:44:52  [ main:814 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-06-29 22:44:52  [ main:821 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-06-29 22:44:52  [ main:963 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 22:44:52  [ main:965 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 22:44:52  [ main:1323 ] - [ INFO ]  HHH000221: Reading mappings from resource: me.groupb.model.User
+2016-06-29 22:44:52  [ main:1345 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 22:44:52  [ main:1348 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 22:44:52  [ main:1378 ] - [ INFO ]  HHH000221: Reading mappings from resource: me.groupb.model.User
+2016-06-29 22:46:03  [ main:938 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-29 22:46:03  [ main:995 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-29 22:46:03  [ main:1013 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-06-29 22:46:03  [ main:1022 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-06-29 22:46:03  [ main:1178 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 22:46:03  [ main:1180 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 22:46:04  [ main:1562 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-06-29 22:46:04  [ main:2037 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-29 22:46:05  [ main:2527 ] - [ INFO ]  HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://120.27.7.232:1433;DatabaseName=TestB;]
+2016-06-29 22:46:05  [ main:2530 ] - [ INFO ]  HHH000046: Connection properties: {user=testb, password=hel@test2016}
+2016-06-29 22:46:05  [ main:2534 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-06-29 22:46:05  [ main:2545 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-06-29 22:46:07  [ main:4505 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-06-29 22:46:07  [ main:5016 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 22:46:07  [ main:5017 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 22:46:07  [ main:5038 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-06-29 22:46:07  [ main:5067 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-29 22:46:07  [ main:5070 ] - [ INFO ]  HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://120.27.7.232:1433;DatabaseName=TestB;]
+2016-06-29 22:46:07  [ main:5074 ] - [ INFO ]  HHH000046: Connection properties: {user=testb, password=hel@test2016}
+2016-06-29 22:46:07  [ main:5076 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-06-29 22:46:07  [ main:5079 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-06-29 22:46:07  [ main:5216 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-06-29 22:46:07  [ main:5227 ] - [ INFO ]  HHH000071: Duplicate import: me.groupb.model.User -> User
+2016-06-29 22:46:07  [ main:5228 ] - [ INFO ]  HHH000071: Duplicate import: me.groupb.model.User -> me.groupb.model.User
+2016-06-29 22:49:05  [ main:820 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-29 22:49:05  [ main:872 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-29 22:49:05  [ main:903 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-06-29 22:49:05  [ main:918 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-06-29 22:49:05  [ main:1096 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 22:49:05  [ main:1100 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 22:49:06  [ main:1540 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-06-29 22:49:06  [ main:2034 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-29 22:49:07  [ main:2587 ] - [ INFO ]  HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://120.27.7.232:1433;DatabaseName=TestB;]
+2016-06-29 22:49:07  [ main:2590 ] - [ INFO ]  HHH000046: Connection properties: {user=testb, password=hel@test2016}
+2016-06-29 22:49:07  [ main:2592 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-06-29 22:49:07  [ main:2603 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-06-29 22:49:09  [ main:4585 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-06-29 22:49:10  [ main:5278 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-29 22:49:10  [ main:5313 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-06-29 22:49:11  [ main:6724 ] - [ INFO ]  HHH000227: Running hbm2ddl schema export
+2016-06-29 22:49:11  [ main:6810 ] - [ INFO ]  HHH000230: Schema export complete
+2016-06-29 22:53:36  [ main:670 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-29 22:53:36  [ main:715 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-29 22:53:36  [ main:736 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-06-29 22:53:36  [ main:744 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-06-29 22:53:37  [ main:959 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 22:53:37  [ main:961 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 22:53:37  [ main:1359 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-06-29 22:53:38  [ main:1803 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-29 22:53:38  [ main:2290 ] - [ INFO ]  HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://120.27.7.232:1433;DatabaseName=TestB;]
+2016-06-29 22:53:38  [ main:2292 ] - [ INFO ]  HHH000046: Connection properties: {user=testb, password=hel@test2016}
+2016-06-29 22:53:38  [ main:2294 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-06-29 22:53:38  [ main:2302 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-06-29 22:53:40  [ main:4229 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-06-29 22:53:41  [ main:4929 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-29 22:53:41  [ main:4955 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-06-29 22:53:42  [ main:6216 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-06-29 22:53:42  [ main:6221 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-06-29 22:53:42  [ main:6246 ] - [ INFO ]  HHH000396: Updating schema
+2016-06-29 22:53:43  [ main:7048 ] - [ INFO ]  HHH000261: Table found: TestB.db_owner.tb_User
+2016-06-29 22:53:43  [ main:7049 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, passwordmd5, registername]
+2016-06-29 22:53:43  [ main:7050 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-06-29 22:53:43  [ main:7050 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec274e88abd4]
+2016-06-29 22:53:43  [ main:7054 ] - [ INFO ]  HHH000232: Schema update complete
+2016-06-29 22:55:07  [ main:880 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-29 22:55:07  [ main:962 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-29 22:55:07  [ main:991 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-06-29 22:55:07  [ main:1002 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-06-29 22:55:07  [ main:1217 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 22:55:07  [ main:1220 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 22:55:07  [ main:1747 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-06-29 22:55:08  [ main:2385 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-29 22:55:09  [ main:3009 ] - [ INFO ]  HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://120.27.7.232:1433;DatabaseName=TestB;]
+2016-06-29 22:55:09  [ main:3012 ] - [ INFO ]  HHH000046: Connection properties: {user=testb, password=hel@test2016}
+2016-06-29 22:55:09  [ main:3013 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-06-29 22:55:09  [ main:3021 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-06-29 22:55:11  [ main:5558 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-06-29 22:55:13  [ main:6810 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-29 22:55:13  [ main:6901 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-06-29 22:55:14  [ main:8639 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-06-29 22:55:14  [ main:8643 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-06-29 22:55:14  [ main:8669 ] - [ INFO ]  HHH000396: Updating schema
+2016-06-29 22:55:15  [ main:8927 ] - [ INFO ]  HHH000261: Table found: TestB.db_owner.tb_User
+2016-06-29 22:55:15  [ main:8928 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, passwordmd5, registername]
+2016-06-29 22:55:15  [ main:8930 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-06-29 22:55:15  [ main:8930 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec274e88abd4]
+2016-06-29 22:55:15  [ main:8935 ] - [ INFO ]  HHH000232: Schema update complete
+2016-06-29 22:58:25  [ main:678 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-29 22:58:25  [ main:726 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-29 22:58:25  [ main:748 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-06-29 22:58:25  [ main:758 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-06-29 22:58:25  [ main:879 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 22:58:25  [ main:880 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 22:58:25  [ main:1213 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-06-29 22:58:26  [ main:1635 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-29 22:58:26  [ main:2048 ] - [ INFO ]  HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://120.27.7.232:1433;DatabaseName=TestB;]
+2016-06-29 22:58:26  [ main:2056 ] - [ INFO ]  HHH000046: Connection properties: {user=testb, password=hel@test2016}
+2016-06-29 22:58:26  [ main:2059 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-06-29 22:58:26  [ main:2073 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-06-29 22:58:28  [ main:3921 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-06-29 22:58:29  [ main:4615 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-29 22:58:29  [ main:4641 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-06-29 22:58:30  [ main:6009 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-06-29 22:58:30  [ main:6020 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-06-29 22:58:30  [ main:6041 ] - [ INFO ]  HHH000396: Updating schema
+2016-06-29 22:58:30  [ main:6267 ] - [ INFO ]  HHH000261: Table found: TestB.db_owner.tb_User
+2016-06-29 22:58:30  [ main:6269 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, passwordmd5, registername]
+2016-06-29 22:58:30  [ main:6269 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-06-29 22:58:30  [ main:6270 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec274e88abd4]
+2016-06-29 22:58:30  [ main:6274 ] - [ INFO ]  HHH000232: Schema update complete
+2016-06-29 22:59:04  [ main:742 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-29 22:59:04  [ main:809 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-29 22:59:04  [ main:836 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-06-29 22:59:04  [ main:847 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-06-29 22:59:04  [ main:995 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 22:59:04  [ main:1000 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 22:59:04  [ main:1387 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-06-29 22:59:05  [ main:1884 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-29 22:59:05  [ main:2330 ] - [ INFO ]  HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://120.27.7.232:1433;DatabaseName=TestB;]
+2016-06-29 22:59:05  [ main:2336 ] - [ INFO ]  HHH000046: Connection properties: {user=testb, password=hel@test2016}
+2016-06-29 22:59:05  [ main:2340 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-06-29 22:59:05  [ main:2346 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-06-29 22:59:07  [ main:4563 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-06-29 22:59:08  [ main:5486 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-29 22:59:08  [ main:5515 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-06-29 22:59:10  [ main:7000 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-06-29 22:59:10  [ main:7006 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-06-29 22:59:10  [ main:7027 ] - [ INFO ]  HHH000396: Updating schema
+2016-06-29 22:59:10  [ main:7260 ] - [ INFO ]  HHH000261: Table found: TestB.db_owner.tb_User
+2016-06-29 22:59:10  [ main:7261 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, passwordmd5, registername]
+2016-06-29 22:59:10  [ main:7262 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-06-29 22:59:10  [ main:7263 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec274e88abd4]
+2016-06-29 22:59:10  [ main:7268 ] - [ INFO ]  HHH000232: Schema update complete
+2016-06-29 23:01:15  [ main:704 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-29 23:01:15  [ main:752 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-29 23:01:15  [ main:769 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-06-29 23:01:15  [ main:789 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-06-29 23:01:16  [ main:938 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 23:01:16  [ main:941 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 23:01:16  [ main:1286 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-06-29 23:01:16  [ main:1735 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-29 23:01:17  [ main:2148 ] - [ INFO ]  HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://120.27.7.232:1433;DatabaseName=TestB;]
+2016-06-29 23:01:17  [ main:2151 ] - [ INFO ]  HHH000046: Connection properties: {user=testb, password=hel@test2016}
+2016-06-29 23:01:17  [ main:2155 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-06-29 23:01:17  [ main:2162 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-06-29 23:01:19  [ main:4046 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-06-29 23:01:20  [ main:5073 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-29 23:01:20  [ main:5111 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-06-29 23:01:21  [ main:6779 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-06-29 23:01:21  [ main:6784 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-06-29 23:01:21  [ main:6808 ] - [ INFO ]  HHH000396: Updating schema
+2016-06-29 23:01:22  [ main:7028 ] - [ INFO ]  HHH000261: Table found: TestB.db_owner.tb_User
+2016-06-29 23:01:22  [ main:7030 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, passwordmd5, registername]
+2016-06-29 23:01:22  [ main:7031 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-06-29 23:01:22  [ main:7032 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec274e88abd4]
+2016-06-29 23:01:22  [ main:7036 ] - [ INFO ]  HHH000232: Schema update complete
+2016-06-29 23:06:22  [ main:671 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-29 23:06:22  [ main:722 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-29 23:06:22  [ main:740 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-06-29 23:06:22  [ main:759 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-06-29 23:06:23  [ main:898 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 23:06:23  [ main:899 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 23:06:23  [ main:1272 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-06-29 23:06:23  [ main:1728 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-29 23:06:24  [ main:2148 ] - [ INFO ]  HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://120.27.7.232:1433;DatabaseName=TestB;]
+2016-06-29 23:06:24  [ main:2151 ] - [ INFO ]  HHH000046: Connection properties: {user=testb, password=hel@test2016}
+2016-06-29 23:06:24  [ main:2154 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-06-29 23:06:24  [ main:2166 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-06-29 23:06:26  [ main:4082 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-06-29 23:06:27  [ main:4810 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-29 23:06:27  [ main:4839 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-06-29 23:06:28  [ main:6202 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-06-29 23:06:28  [ main:6207 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-06-29 23:06:28  [ main:6228 ] - [ INFO ]  HHH000396: Updating schema
+2016-06-29 23:06:28  [ main:6458 ] - [ INFO ]  HHH000261: Table found: TestB.db_owner.tb_User
+2016-06-29 23:06:28  [ main:6459 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, passwordmd5, registername]
+2016-06-29 23:06:28  [ main:6460 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-06-29 23:06:28  [ main:6461 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec274e88abd4]
+2016-06-29 23:06:28  [ main:6465 ] - [ INFO ]  HHH000232: Schema update complete
+2016-06-29 23:11:25  [ main:1097 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-29 23:11:25  [ main:1132 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-29 23:11:25  [ main:1151 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-06-29 23:11:25  [ main:1159 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-06-29 23:11:25  [ main:1304 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 23:11:25  [ main:1306 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 23:11:25  [ main:1690 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-06-29 23:11:26  [ main:2119 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-29 23:11:26  [ main:2605 ] - [ INFO ]  HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://120.27.7.232:1433;DatabaseName=TestB;]
+2016-06-29 23:11:26  [ main:2607 ] - [ INFO ]  HHH000046: Connection properties: {user=testb, password=hel@test2016}
+2016-06-29 23:11:26  [ main:2608 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-06-29 23:11:26  [ main:2616 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-06-29 23:11:28  [ main:4537 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-06-29 23:11:29  [ main:5224 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-29 23:11:29  [ main:5257 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-06-29 23:11:30  [ main:6553 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-06-29 23:11:30  [ main:6556 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-06-29 23:11:30  [ main:6580 ] - [ INFO ]  HHH000396: Updating schema
+2016-06-29 23:11:31  [ main:6793 ] - [ INFO ]  HHH000261: Table found: TestB.db_owner.tb_User
+2016-06-29 23:11:31  [ main:6795 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, passwordmd5, registername]
+2016-06-29 23:11:31  [ main:6796 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-06-29 23:11:31  [ main:6798 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec274e88abd4]
+2016-06-29 23:11:31  [ main:6802 ] - [ INFO ]  HHH000232: Schema update complete
+2016-06-29 23:12:18  [ main:711 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-29 23:12:18  [ main:746 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-29 23:12:18  [ main:764 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-06-29 23:12:18  [ main:772 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-06-29 23:12:18  [ main:940 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 23:12:18  [ main:945 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 23:12:18  [ main:1456 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-06-29 23:12:19  [ main:2103 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-29 23:12:20  [ main:2513 ] - [ INFO ]  HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testa;]
+2016-06-29 23:12:20  [ main:2518 ] - [ INFO ]  HHH000046: Connection properties: {user=testa, password=sdu@test2016}
+2016-06-29 23:12:20  [ main:2527 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-06-29 23:12:20  [ main:2535 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-06-29 23:12:22  [ main:4506 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-06-29 23:12:22  [ main:5224 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-29 23:12:22  [ main:5251 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-06-29 23:12:24  [ main:6644 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-06-29 23:12:24  [ main:6649 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-06-29 23:12:24  [ main:6672 ] - [ INFO ]  HHH000396: Updating schema
+2016-06-29 23:12:24  [ main:7132 ] - [ INFO ]  HHH000261: Table found: testa.dbo.tb_User
+2016-06-29 23:12:24  [ main:7133 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, registername, passwordmd5]
+2016-06-29 23:12:24  [ main:7134 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-06-29 23:12:24  [ main:7135 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec2714270015]
+2016-06-29 23:12:24  [ main:7139 ] - [ INFO ]  HHH000232: Schema update complete
+2016-06-29 23:15:51  [ main:763 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-29 23:15:51  [ main:812 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-29 23:15:51  [ main:833 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-06-29 23:15:51  [ main:843 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-06-29 23:15:51  [ main:1002 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-29 23:15:51  [ main:1003 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-29 23:15:52  [ main:1447 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-06-29 23:15:52  [ main:1933 ] - [ WARN ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-29 23:15:53  [ main:2382 ] - [ INFO ]  HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://120.27.7.232:1433;DatabaseName=TestB;]
+2016-06-29 23:15:53  [ main:2385 ] - [ INFO ]  HHH000046: Connection properties: {user=testb, password=hel@test2016}
+2016-06-29 23:15:53  [ main:2387 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-06-29 23:15:53  [ main:2393 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-06-29 23:15:55  [ main:4263 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-06-29 23:15:55  [ main:4955 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-29 23:15:55  [ main:4986 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-06-29 23:15:57  [ main:6339 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-06-29 23:15:57  [ main:6343 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-06-29 23:15:57  [ main:6366 ] - [ INFO ]  HHH000396: Updating schema
+2016-06-29 23:15:57  [ main:6576 ] - [ INFO ]  HHH000261: Table found: TestB.db_owner.tb_User
+2016-06-29 23:15:57  [ main:6578 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, passwordmd5, registername]
+2016-06-29 23:15:57  [ main:6579 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-06-29 23:15:57  [ main:6580 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec274e88abd4]
+2016-06-29 23:15:57  [ main:6585 ] - [ INFO ]  HHH000232: Schema update complete
