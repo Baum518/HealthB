@@ -4,48 +4,41 @@
 	"http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
-<!--  
-    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
-    <constant name="struts.devMode" value="true" />
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.multipart.saveDir" value="/tmp" />
+	<constant name="struts.ognl.allowStaticMethodAccess" value="false" />
+	<constant name="struts.action.extension" value="action,,do" />
+	<constant name="struts.multipart.maxSize" value="2097152" />
+	
+<constant name="struts.objectFactory" value="spring"/>  
+  <constant name="struts.objectFactory.spring.autoWire.alwaysRespect" value="true" /> 
+	<package name="default1" extends="struts-default">
+		<default-action-ref name="notFound" />
+		<global-results>
 
-    <package name="default" namespace="/" extends="struts-default">
+			<!--全局异常跳转 -->
+			<result name="nullExce"> /404.jsp</result>
+		</global-results>
 
-        <default-action-ref name="index" />
+		<!-- 全局异常 -->
+		<!-- <global-exception-mappings> <exception-mapping result="nullExce" exception="java.lang.NullPointerException"></exception-mapping> 
+			</global-exception-mappings> -->
+		<action name="notFound">
+			<result>/404.jsp</result>
+		</action>
+	</package>
 
-        <global-results>
-            <result name="error">/error.jsp</result>
-        </global-results>
+	<package name="rooter" namespace="/" extends="default1">
+		<default-action-ref name="notFound" />
+			<action name="*" class="DemoAction" method="{1}">
+				<result name="success">/WEB-INF/jsp/success.jsp</result>
+				<result name="index">/index.html</result>
+			</action>
+	</package>
 
-        <global-exception-mappings>
-            <exception-mapping exception="java.lang.Exception" result="error"/>
-        </global-exception-mappings>
+</struts>    
 
-        <action name="index">
-            <result type="redirectAction">
-                <param name="actionName">HelloWorld</param>
-                <param name="namespace">/example</param>
-            </result>
-        </action>
-    </package>
 
-    <include file="example.xml"/>  
-    -->
-    
-    <constant name="struts.devMode" value="true" />
-    <package name="health" namespace="/health" extends="struts-default"> 
-        <!--package用来区分重名的情况-->
-        <action name="index">
-            <result name="success" >
-                 /xxx.jsp
-            </result>
-        </action>
-    </package>
-    <package name="error" namespace="" extends="struts-default"> 
-        <!--package用来区分重名的情况-->
-        <action name="index">
-            <result >
-                 /xxx.jsp
-            </result>
-        </action>
-    </package>
-</struts>
+
+ 

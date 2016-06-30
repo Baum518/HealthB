@@ -2,6 +2,7 @@
 <!DOCTYPE hibernate-configuration PUBLIC
           "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
           "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
 <hibernate-configuration>
 	<session-factory>
 		<property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
@@ -15,16 +16,31 @@
 		<!-- Enable Hibernate's automatic session context management -->
 		<!-- <property name="current_session_context_class">thread</property> -->
 		<!-- Disable the second-level cache 二级缓存，优化Hibernate时再说！ -->
-		<!--  <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>--> 
+		<!-- <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property> -->
+		<!-- Enable Hibernate's automatic session context management -->
+
+
+		<property name="connection.autoReconnect">true</property>
+		<property name="connection.autoReconnectForPools">true</property>
+		<property name="connection.is-connection-validation-required">true</property>
+		<property name="current_session_context_class">org.springframework.orm.hibernate4.SpringSessionContext</property>
+		<property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider  </property>
+		<property name="hibernate.c3p0.max_size">20</property>
+		<property name="hibernate.c3p0.min_size">5</property>
+		<property name="hibernate.c3p0.timeout">50000</property>
+		<property name="hibernate.c3p0.max_statements">0</property>
+		<property name="hibernate.c3p0.idle_test_period">3000</property>
+		<!-- 当连接池耗尽并接到获得连接的请求，则新增加连接的数量 -->
+		<property name="hibernate.c3p0.acquire_increment">2</property>
+		<!-- 是否验证，检查连接 -->
+		<property name="hibernate.c3p0.validate">true</property>
+		<!-- Disable the second-level cache -->
+		<property name="cache.provider_class">org.hibernate.cache.internal.NoCacheProvider</property>
+		<!-- Echo all executed SQL to stdout -->
 		<property name="show_sql">true</property>
 		<property name="format_sql">true</property>
-		<property name="myeclipse.connection.profile">msdriver</property>
-		<property name="hibernate.hbm2ddl.auto">update</property>
-		<mapping class="me.groupb.model.User" />
-		<mapping class="me.groupb.model.User_Info" />
-		<mapping class="me.groupb.model.Device_Info" />
-		<mapping class="me.groupb.model.Device_Type" />
-		<mapping class="me.groupb.model.Record_BloodPressure" />
-		<mapping class="me.groupb.model.User_Device_Relation" />
+
+		<!-- Drop and re-create the database schema on startup -->
+		<property name="hbm2ddl.auto">update</property>
 	</session-factory>
 </hibernate-configuration>
