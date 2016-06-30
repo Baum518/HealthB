@@ -9,6 +9,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 @Table(name="tb_User_Info")
@@ -21,6 +23,7 @@ public class User_Info {
 	private	String RealName;
 	private String RealNamePY;
 	private int Sex;
+	@Temporal(TemporalType.DATE)
 	private Date Birthdate;
 	private int MobilePhone;
 	private String PhoneNumber1;

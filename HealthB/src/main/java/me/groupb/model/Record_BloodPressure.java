@@ -7,6 +7,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 @Table(name="tb_Record_BloodPressure")
@@ -18,6 +20,19 @@ public class Record_BloodPressure {
 	private int SBP;
 	private int DBP;
 	private int MBP;
+	private int HeartRate;
+	private int Arrhythmia;
+	private int DeviceId;
+	private int MNC;
+	private int LAC;
+	private int CellID;
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date MeasureTime;
+	private int IsDelete;
+	private int DeleteUserId;
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date DeleteTime;
+	private String Note;
 	public int getID() {
 		return ID;
 	}
@@ -114,16 +129,6 @@ public class Record_BloodPressure {
 	public void setNote(String note) {
 		Note = note;
 	}
-	private int HeartRate;
-	private int Arrhythmia;
-	private int DeviceId;
-	private int MNC;
-	private int LAC;
-	private int CellID;
-	private Date MeasureTime;
-	private int IsDelete;
-	private int DeleteUserId;
-	private Date DeleteTime;
-	private String Note;
+	
 
 }

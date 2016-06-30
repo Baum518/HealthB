@@ -7,6 +7,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 @Table(name="tb_Device_Info")
@@ -20,6 +22,7 @@ public class Device_Info {
 	private int DeviceType;
 	private int BatchNo;
 	private String Producer;
+	@Temporal(TemporalType.TIMESTAMP)
 	private Date CreateTime;
 	private int SimNumber;
 	public int getID() {

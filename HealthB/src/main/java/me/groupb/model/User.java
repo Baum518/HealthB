@@ -7,6 +7,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 @Table(name="tb_User")
@@ -19,6 +21,7 @@ public class User {
 	private String ShenFenZhengID;
 	private String NickName;
 	private String PasswordMD5;
+	@Temporal(TemporalType.TIMESTAMP)
 	private Date CreateTime;
 	private int State;
 	

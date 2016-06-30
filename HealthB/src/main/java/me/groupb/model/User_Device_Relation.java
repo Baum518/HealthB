@@ -7,6 +7,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 @Table(name="tb_User_Device_Relation")
@@ -17,9 +19,11 @@ public class User_Device_Relation {
 	private int UserId;
 	private int DeviceId;
 	private int DeviceUser;
+	@Temporal(TemporalType.TIMESTAMP)
 	private Date CreateTime;
 	private int IsUnbind;
 	private int UnbindUserId;
+	@Temporal(TemporalType.TIMESTAMP)
 	private Date UnbindTime;
 	private String Note;
 	public int getID() {
