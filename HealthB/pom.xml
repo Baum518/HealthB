@@ -11,7 +11,7 @@
 		<struts.version>2.3.24.1</struts.version>
 		<hibernate.version>4.1.4.Final</hibernate.version>
 		<c3p0.version>0.9.1.2</c3p0.version>
-		<servlet-api.version>2.4</servlet-api.version>
+		<servlet-api.version>2.5</servlet-api.version>
 		<servlet-api.scope>provided</servlet-api.scope>
 		<jsp-api.version>2.0</jsp-api.version>
 		<jsp-api.scope>provided</jsp-api.scope>
@@ -74,9 +74,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.32</version>
+  			<groupId>com.microsoft.sqlserver</groupId>
+  			<artifactId>sqljdbc4</artifactId>
+  			<version>4.0</version>
 		</dependency>
 
 		<dependency>

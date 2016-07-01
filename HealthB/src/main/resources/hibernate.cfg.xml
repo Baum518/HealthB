@@ -42,5 +42,6 @@
 
 		<!-- Drop and re-create the database schema on startup -->
 		<property name="hbm2ddl.auto">update</property>
+		<mapping class="me.groupb.model.User"/>
 	</session-factory>
 </hibernate-configuration>
