@@ -1,17 +1,42 @@
 package me.groupb.test.sqlserver;
 
-import org.hibernate.Session;
-
-import java.util.Date;
 import java.util.List;
-import me.groupb.model.User;
-import me.groupb.util.HibernateSessionFactory;
 
-public class TestUser {
-	public static void main(String args[])throws Exception{
-		Session session = HibernateSessionFactory.getSession();
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.AbstractTransactionalJUnit4SpringContextTests;
+
+import me.groupb.model.User;
+
+import org.springframework.test.context.junit4.*;
+
+//import me.groupb.util.HibernateSessionFactory;
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations = "classpath:applicationContext.xml")
+public class TestUser extends AbstractTransactionalJUnit4SpringContextTests{
+	@Autowired
+	private SessionFactory sessionFactory;
+	
+	@Test
+	public void testA()
+	{
+		Session session = sessionFactory.getCurrentSession();
 		session.beginTransaction();
-		@SuppressWarnings("unchecked")
+		List<User> uList = session.createQuery("select u from User u").list();
+		System.out.println(uList.isEmpty());
+		for(User u:uList){
+			System.out.println("NickName:"+u.getNickName());
+		}
+		session.getTransaction().commit();
+		session.close();
+	}
+//	public static void main(String args[])throws Exception{
+//		Session session = HibernateSessionFactory.getSession();
+//		session.beginTransaction();
 //		User user = new User();
 //		user.setUserId(102);
 //		user.setNickName("中文");
@@ -24,7 +49,7 @@ public class TestUser {
 //		session.persist(user);
 //		session.getTransaction().commit();
 		
-		
+		/*
 		List<User> uList = session.createQuery("select u from User u").list();
 		System.out.println(uList.isEmpty());
 		for(User u:uList){
@@ -32,5 +57,6 @@ public class TestUser {
 		}
 		session.getTransaction().commit();
 		session.close();
-	}
+		*/
+//	}
 }
