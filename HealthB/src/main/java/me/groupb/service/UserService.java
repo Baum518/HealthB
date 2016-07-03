@@ -14,14 +14,14 @@ import me.groupb.model.User;
 @Service
 @Transactional
 public class UserService {
-	private static final String User = null;
+
 	@Autowired
 	private UserDao userDao;
 	
 	
 	@RequestMapping("findUser")
 	public List<User> findUser(){
-		List<User> lUsers = userDao.listHql(User);
+		List<User> lUsers = userDao.listHql(User.class);
 		return lUsers;
 	}
 }
