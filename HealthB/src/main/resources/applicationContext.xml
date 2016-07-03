@@ -86,4 +86,5 @@
 
 	<!-- 自动加载构建bean -->
 	<context:component-scan base-package="me.groupb" />
+	
 </beans>  

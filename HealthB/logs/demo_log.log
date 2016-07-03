@@ -1,196 +1,53 @@
-2016-07-01 08:17:25  [ main:793 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2016-07-01 08:17:25  [ main:881 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
-2016-07-01 08:17:25  [ main:897 ] - [ INFO ]  HHH000206: hibernate.properties not found
-2016-07-01 08:17:25  [ main:917 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
-2016-07-01 08:17:25  [ main:1155 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-07-01 08:17:25  [ main:1157 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-07-01 08:17:26  [ main:1967 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
-2016-07-01 08:17:27  [ main:2755 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
-2016-07-01 08:17:27  [ main:2766 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
-2016-07-01 08:17:27  [ main:2961 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
-2016-07-01 08:17:27  [ main:2968 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
-2016-07-01 08:17:27  [ main:2982 ] - [ INFO ]  HHH000006: Autocommit mode: false
-2016-07-01 08:17:27  [ main:3059 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-07-01 08:17:27  [ main:3063 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-07-01 08:17:27  [ main:3158 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
-2016-07-01 08:17:28  [ main:3178 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
-2016-07-01 08:17:28  [ main:3185 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
-2016-07-01 08:17:28  [ main:3196 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
-2016-07-01 08:17:28  [ main:3208 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
-2016-07-01 08:17:28  [ main:3212 ] - [ INFO ]  HHH000006: Autocommit mode: false
-2016-07-01 09:35:27  [ main:996 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2016-07-01 09:35:27  [ main:1041 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
-2016-07-01 09:35:27  [ main:1051 ] - [ INFO ]  HHH000206: hibernate.properties not found
-2016-07-01 09:35:27  [ main:1060 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
-2016-07-01 09:35:27  [ main:1184 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-07-01 09:35:27  [ main:1185 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-07-01 09:35:28  [ main:1542 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
-2016-07-01 09:35:28  [ main:2100 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
-2016-07-01 09:35:28  [ main:2110 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
-2016-07-01 09:35:28  [ main:2184 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
-2016-07-01 09:35:28  [ main:2186 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
-2016-07-01 09:35:28  [ main:2190 ] - [ INFO ]  HHH000006: Autocommit mode: false
-2016-07-01 09:35:29  [ main:2803 ] - [ INFO ]  MLog clients using log4j logging.
-2016-07-01 09:35:30  [ main:3769 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2016-07-01 09:35:30  [ main:4147 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@4ddc609d [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@1b42776e [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1mn1smd9h19j43g71igtfva|29ba4338, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@c948ee [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19j43g71igtfva|4b9e255, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19j43g71igtfva|36f0f1be, numHelperThreads -> 3 ]
-2016-07-01 09:35:32  [ main:6108 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
-2016-07-01 09:35:32  [ main:6156 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2016-07-01 09:35:32  [ main:6226 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-07-01 09:35:32  [ main:6250 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
-2016-07-01 09:35:33  [ main:6440 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
-2016-07-01 09:35:33  [ main:6442 ] - [ INFO ]  HHH000102: Fetching database metadata
-2016-07-01 09:35:33  [ main:6478 ] - [ INFO ]  HHH000396: Updating schema
-2016-07-01 09:35:33  [ main:6480 ] - [ INFO ]  HHH000232: Schema update complete
-2016-07-01 09:42:19  [ main:592 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2016-07-01 09:42:19  [ main:632 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
-2016-07-01 09:42:19  [ main:642 ] - [ INFO ]  HHH000206: hibernate.properties not found
-2016-07-01 09:42:19  [ main:651 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
-2016-07-01 09:42:19  [ main:758 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-07-01 09:42:19  [ main:760 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-07-01 09:42:20  [ main:1128 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
-2016-07-01 09:42:21  [ main:1849 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
-2016-07-01 09:42:21  [ main:1850 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
-2016-07-01 09:42:21  [ main:1902 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
-2016-07-01 09:42:21  [ main:1905 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
-2016-07-01 09:42:21  [ main:1907 ] - [ INFO ]  HHH000006: Autocommit mode: false
-2016-07-01 09:42:21  [ main:2400 ] - [ INFO ]  MLog clients using log4j logging.
-2016-07-01 09:42:22  [ main:3197 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2016-07-01 09:42:22  [ main:3597 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@3f3f760e [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@5ed2e9b3 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1mn1smd9h19jcxdl19m5k7v|393671df, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@df79b646 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19jcxdl19m5k7v|1f3f4916, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19jcxdl19m5k7v|1d9b7cce, numHelperThreads -> 3 ]
-2016-07-01 09:42:24  [ main:5111 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
-2016-07-01 09:42:24  [ main:5210 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2016-07-01 09:42:24  [ main:5311 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-07-01 09:42:24  [ main:5359 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
-2016-07-01 09:42:25  [ main:6147 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
-2016-07-01 09:42:25  [ main:6148 ] - [ INFO ]  HHH000102: Fetching database metadata
-2016-07-01 09:42:25  [ main:6184 ] - [ INFO ]  HHH000396: Updating schema
-2016-07-01 09:42:25  [ main:6397 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User
-2016-07-01 09:42:25  [ main:6399 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, registername, passwordmd5]
-2016-07-01 09:42:25  [ main:6400 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 09:42:25  [ main:6401 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec2744ff419a]
-2016-07-01 09:42:25  [ main:6405 ] - [ INFO ]  HHH000232: Schema update complete
-2016-07-01 10:02:51  [ main:1481 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2016-07-01 10:02:51  [ main:1569 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
-2016-07-01 10:02:51  [ main:1592 ] - [ INFO ]  HHH000206: hibernate.properties not found
-2016-07-01 10:02:51  [ main:1610 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
-2016-07-01 10:02:51  [ main:1906 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-07-01 10:02:51  [ main:1908 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-07-01 10:02:52  [ main:2800 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
-2016-07-01 10:02:53  [ main:3459 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
-2016-07-01 10:02:53  [ main:3492 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
-2016-07-01 10:02:53  [ main:3585 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
-2016-07-01 10:02:53  [ main:3595 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
-2016-07-01 10:02:53  [ main:3598 ] - [ INFO ]  HHH000006: Autocommit mode: false
-2016-07-01 10:02:54  [ main:4632 ] - [ INFO ]  MLog clients using log4j logging.
-2016-07-01 10:02:56  [ main:6625 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2016-07-01 10:02:57  [ main:7508 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@ae7a7db2 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@7be09483 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1mn1smd9h19k3cq51jv1slt|29ba4338, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@ca18b539 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19k3cq51jv1slt|4b9e255, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19k3cq51jv1slt|36f0f1be, numHelperThreads -> 3 ]
-2016-07-01 10:03:01  [ main:11413 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
-2016-07-01 10:03:01  [ main:11512 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2016-07-01 10:03:01  [ main:11896 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-07-01 10:03:01  [ main:11928 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
-2016-07-01 10:03:01  [ main:12174 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
-2016-07-01 10:03:01  [ main:12175 ] - [ INFO ]  HHH000102: Fetching database metadata
-2016-07-01 10:03:02  [ main:13123 ] - [ INFO ]  HHH000396: Updating schema
-2016-07-01 10:03:02  [ main:13125 ] - [ INFO ]  HHH000232: Schema update complete
-2016-07-01 10:29:19  [ main:1224 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2016-07-01 10:29:19  [ main:1318 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
-2016-07-01 10:29:19  [ main:1355 ] - [ INFO ]  HHH000206: hibernate.properties not found
-2016-07-01 10:29:19  [ main:1370 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
-2016-07-01 10:29:19  [ main:1622 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-07-01 10:29:19  [ main:1627 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-07-01 10:29:20  [ main:2514 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
-2016-07-01 10:29:21  [ main:3249 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
-2016-07-01 10:29:21  [ main:3260 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
-2016-07-01 10:29:21  [ main:3396 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
-2016-07-01 10:29:21  [ main:3418 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
-2016-07-01 10:29:21  [ main:3439 ] - [ INFO ]  HHH000006: Autocommit mode: false
-2016-07-01 10:29:22  [ main:4452 ] - [ INFO ]  MLog clients using log4j logging.
-2016-07-01 10:29:24  [ main:6582 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2016-07-01 10:29:25  [ main:7586 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@9d13dabc [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@6a79f18d [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1mn1smd9h19l1e921ikcjgx|29ba4338, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@8fba8eef [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19l1e921ikcjgx|4b9e255, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19l1e921ikcjgx|36f0f1be, numHelperThreads -> 3 ]
-2016-07-01 10:29:29  [ main:11259 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
-2016-07-01 10:29:29  [ main:11372 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2016-07-01 10:29:29  [ main:11510 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-07-01 10:29:29  [ main:11571 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
-2016-07-01 10:29:30  [ main:12138 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
-2016-07-01 10:29:30  [ main:12143 ] - [ INFO ]  HHH000102: Fetching database metadata
-2016-07-01 10:29:30  [ main:12190 ] - [ INFO ]  HHH000396: Updating schema
-2016-07-01 10:29:30  [ main:12192 ] - [ INFO ]  HHH000232: Schema update complete
-2016-07-01 10:30:53  [ main:1377 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2016-07-01 10:30:53  [ main:1502 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
-2016-07-01 10:30:53  [ main:1526 ] - [ INFO ]  HHH000206: hibernate.properties not found
-2016-07-01 10:30:53  [ main:1539 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
-2016-07-01 10:30:53  [ main:1862 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
-2016-07-01 10:30:53  [ main:1865 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
-2016-07-01 10:30:54  [ main:2848 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
-2016-07-01 10:30:56  [ main:4823 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
-2016-07-01 10:30:56  [ main:4839 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
-2016-07-01 10:30:56  [ main:4993 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
-2016-07-01 10:30:56  [ main:4996 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
-2016-07-01 10:30:56  [ main:5001 ] - [ INFO ]  HHH000006: Autocommit mode: false
-2016-07-01 10:30:57  [ main:6077 ] - [ INFO ]  MLog clients using log4j logging.
-2016-07-01 10:30:59  [ main:8213 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2016-07-01 10:31:01  [ main:9392 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@15db608c [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@356ed431 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1mn1smd9h19l3fqlpnsrvt|393671df, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@b615a0c4 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19l3fqlpnsrvt|1f3f4916, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19l3fqlpnsrvt|1d9b7cce, numHelperThreads -> 3 ]
-2016-07-01 10:31:07  [ main:15684 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
-2016-07-01 10:31:07  [ main:15830 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2016-07-01 10:31:07  [ main:15964 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-07-01 10:31:07  [ main:16031 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
-2016-07-01 10:31:09  [ main:17811 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
-2016-07-01 10:31:09  [ main:17813 ] - [ INFO ]  HHH000102: Fetching database metadata
-2016-07-01 10:31:09  [ main:17862 ] - [ INFO ]  HHH000396: Updating schema
-2016-07-01 10:31:09  [ main:18147 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User
-2016-07-01 10:31:09  [ main:18150 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, registername, passwordmd5]
-2016-07-01 10:31:09  [ main:18153 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 10:31:09  [ main:18155 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec2744ff419a]
-2016-07-01 10:31:09  [ main:18160 ] - [ INFO ]  HHH000232: Schema update complete
-2016-07-01 14:09:57  [ main:1131 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
-2016-07-01 14:09:58  [ main:2520 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@1794d431: startup date [Fri Jul 01 14:09:58 CST 2016]; root of context hierarchy
-2016-07-01 14:10:00  [ main:3970 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2016-07-01 14:10:00  [ main:4008 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
-2016-07-01 14:10:00  [ main:4022 ] - [ INFO ]  HHH000206: hibernate.properties not found
-2016-07-01 14:10:00  [ main:4037 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
-2016-07-01 14:10:00  [ main:4216 ] - [ INFO ]  HHH000044: Configuring from URL: file:/C:/Users/Baum518/git/HealthB/target/classes/hibernate.cfg.xml
-2016-07-01 14:10:00  [ main:4541 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
-2016-07-01 14:10:01  [ main:5448 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
-2016-07-01 14:10:01  [ main:5452 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
-2016-07-01 14:10:01  [ main:5519 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
-2016-07-01 14:10:01  [ main:5523 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
-2016-07-01 14:10:01  [ main:5525 ] - [ INFO ]  HHH000006: Autocommit mode: false
-2016-07-01 14:10:02  [ main:6134 ] - [ INFO ]  MLog clients using log4j logging.
-2016-07-01 14:10:03  [ main:7209 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2016-07-01 14:10:03  [ main:7700 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@9a528670 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@9918fc74 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1mn1smd9h19sx60pd6ypgp|50de186c, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@ac3df486 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19sx60pd6ypgp|727eb8cb, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19sx60pd6ypgp|5b367418, numHelperThreads -> 3 ]
-2016-07-01 14:10:05  [ main:9159 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
-2016-07-01 14:10:05  [ main:9224 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2016-07-01 14:10:05  [ main:9301 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-07-01 14:10:05  [ main:9347 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
-2016-07-01 14:10:06  [ main:10247 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
-2016-07-01 14:10:06  [ main:10249 ] - [ INFO ]  HHH000102: Fetching database metadata
-2016-07-01 14:10:06  [ main:10291 ] - [ INFO ]  HHH000396: Updating schema
-2016-07-01 14:10:06  [ main:10502 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Info
-2016-07-01 14:10:06  [ main:10504 ] - [ INFO ]  HHH000037: Columns: [password, batchno, createtime, producer, simnumber, id, deviceid, deviceidwithchar, devicetype]
-2016-07-01 14:10:06  [ main:10506 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:10:06  [ main:10509 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273c69fb99]
-2016-07-01 14:10:06  [ main:10610 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Type
-2016-07-01 14:10:06  [ main:10612 ] - [ INFO ]  HHH000037: Columns: [devicename, id, devicetype]
-2016-07-01 14:10:06  [ main:10614 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:10:06  [ main:10616 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273f466844]
-2016-07-01 14:10:07  [ main:10743 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Record_BloodPressure
-2016-07-01 14:10:07  [ main:10751 ] - [ INFO ]  HHH000037: Columns: [sbp, note, mnc, deletetime, heartrate, cellid, userid, deviceid, lac, deleteuserid, dbp, arrhythmia, mbp, id, isdelete, measuretime]
-2016-07-01 14:10:07  [ main:10753 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:10:07  [ main:10756 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_recor__3214ec274222d4ef]
-2016-07-01 14:10:07  [ main:11215 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User
-2016-07-01 14:10:07  [ main:11218 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, registername, passwordmd5]
-2016-07-01 14:10:07  [ main:11220 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:10:07  [ main:11222 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec2744ff419a]
-2016-07-01 14:10:07  [ main:11324 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Device_Relation
-2016-07-01 14:10:07  [ main:11326 ] - [ INFO ]  HHH000037: Columns: [note, createtime, unbinduserid, unbindtime, id, isunbind, userid, deviceid, deviceuser]
-2016-07-01 14:10:07  [ main:11329 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:10:07  [ main:11331 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec2747dbae45]
-2016-07-01 14:10:07  [ main:11437 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Info
-2016-07-01 14:10:07  [ main:11439 ] - [ INFO ]  HHH000037: Columns: [country, phonenumber2, createtime, birthdate, phonenumber1, address, city, openid, medicalhistory, sex, language, userid, realname, realnamepy, province, mobilephone, headimgurl, subscibetime, unsubscibetime, id]
-2016-07-01 14:10:07  [ main:11442 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:10:07  [ main:11444 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec274ab81af0]
-2016-07-01 14:10:07  [ main:11513 ] - [ INFO ]  HHH000232: Schema update complete
-2016-07-01 14:10:09  [ main:13010 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@9a528670 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@9918fc74 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1mn1smd9h19sx60pd6ypgp|50de186c, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@ac3df486 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19sx60pd6ypgp|727eb8cb, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19sx60pd6ypgp|5b367418, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
-2016-07-01 14:10:09  [ main:13464 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4eeea57d] to prepare test instance [me.groupb.test.sqlserver.TestUser@5c7fa833]
+2016-07-03 14:07:41  [ main:1189 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-07-03 14:07:42  [ main:2573 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@6d4b1c02: startup date [Sun Jul 03 14:07:42 CST 2016]; root of context hierarchy
+2016-07-03 14:07:44  [ main:3965 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-07-03 14:07:44  [ main:3998 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2016-07-03 14:07:44  [ main:4009 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-07-03 14:07:44  [ main:4019 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-07-03 14:07:44  [ main:4149 ] - [ INFO ]  HHH000044: Configuring from URL: file:/C:/Users/Baum518/git/HealthB/target/classes/hibernate.cfg.xml
+2016-07-03 14:07:44  [ main:4417 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-07-03 14:07:45  [ main:5288 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2016-07-03 14:07:45  [ main:5291 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2016-07-03 14:07:45  [ main:5357 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
+2016-07-03 14:07:45  [ main:5361 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
+2016-07-03 14:07:45  [ main:5363 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-07-03 14:07:46  [ main:5931 ] - [ INFO ]  MLog clients using log4j logging.
+2016-07-03 14:07:46  [ main:6900 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-07-03 14:07:47  [ main:7246 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@5e670724 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@e2102e68 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9dn9h1cnpy3c3qbzyc|5ddf0d24, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@91e351b3 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cnpy3c3qbzyc|600b9d27, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cnpy3c3qbzyc|1603cd68, numHelperThreads -> 3 ]
+2016-07-03 14:07:48  [ main:8855 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-07-03 14:07:49  [ main:8928 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-07-03 14:07:49  [ main:9030 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-07-03 14:07:49  [ main:9068 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-07-03 14:07:50  [ main:9981 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-07-03 14:07:50  [ main:9986 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-07-03 14:07:50  [ main:10045 ] - [ INFO ]  HHH000396: Updating schema
+2016-07-03 14:07:50  [ main:10249 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Info
+2016-07-03 14:07:50  [ main:10251 ] - [ INFO ]  HHH000037: Columns: [password, batchno, createtime, producer, simnumber, id, deviceid, deviceidwithchar, devicetype]
+2016-07-03 14:07:50  [ main:10253 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:07:50  [ main:10255 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273c69fb99]
+2016-07-03 14:07:50  [ main:10358 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Type
+2016-07-03 14:07:50  [ main:10361 ] - [ INFO ]  HHH000037: Columns: [devicename, id, devicetype]
+2016-07-03 14:07:50  [ main:10363 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:07:50  [ main:10365 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273f466844]
+2016-07-03 14:07:50  [ main:10473 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Record_BloodPressure
+2016-07-03 14:07:50  [ main:10476 ] - [ INFO ]  HHH000037: Columns: [sbp, note, mnc, deletetime, heartrate, cellid, userid, deviceid, lac, deleteuserid, dbp, arrhythmia, mbp, id, isdelete, measuretime]
+2016-07-03 14:07:50  [ main:10478 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:07:50  [ main:10483 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_recor__3214ec274222d4ef]
+2016-07-03 14:07:50  [ main:10576 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User
+2016-07-03 14:07:50  [ main:10579 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, registername, passwordmd5]
+2016-07-03 14:07:50  [ main:10581 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:07:50  [ main:10583 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec2744ff419a]
+2016-07-03 14:07:50  [ main:10696 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Device_Relation
+2016-07-03 14:07:50  [ main:10699 ] - [ INFO ]  HHH000037: Columns: [note, createtime, unbinduserid, unbindtime, id, isunbind, userid, deviceid, deviceuser]
+2016-07-03 14:07:50  [ main:10702 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:07:50  [ main:10704 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec2747dbae45]
+2016-07-03 14:07:50  [ main:10817 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Info
+2016-07-03 14:07:50  [ main:10819 ] - [ INFO ]  HHH000037: Columns: [country, phonenumber2, createtime, birthdate, phonenumber1, address, unsubcibetime, city, openid, medicalhistory, sex, language, userid, realname, realnamepy, province, mobilephone, headimgurl, subscibetime, unsubscibetime, id]
+2016-07-03 14:07:50  [ main:10821 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:07:50  [ main:10823 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec274ab81af0]
+2016-07-03 14:07:50  [ main:10829 ] - [ INFO ]  HHH000232: Schema update complete
+2016-07-03 14:07:52  [ main:12842 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@5e670724 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@e2102e68 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9dn9h1cnpy3c3qbzyc|5ddf0d24, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@91e351b3 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cnpy3c3qbzyc|600b9d27, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cnpy3c3qbzyc|1603cd68, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-07-03 14:07:53  [ main:13761 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@10567255] to prepare test instance [me.groupb.test.sqlserver.TestUser@482f8f11]
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'me.groupb.test.sqlserver.TestUser': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire method: public void org.springframework.test.context.junit4.AbstractTransactionalJUnit4SpringContextTests.setDataSource(javax.sql.DataSource); nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [javax.sql.DataSource] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
@@ -230,57 +87,57 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:553)
 	... 28 more
-2016-07-01 14:10:09  [ Thread-5:13623 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@1794d431: startup date [Fri Jul 01 14:09:58 CST 2016]; root of context hierarchy
-2016-07-01 14:13:09  [ main:881 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
-2016-07-01 14:13:11  [ main:2161 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@1794d431: startup date [Fri Jul 01 14:13:11 CST 2016]; root of context hierarchy
-2016-07-01 14:13:12  [ main:3429 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2016-07-01 14:13:12  [ main:3460 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
-2016-07-01 14:13:12  [ main:3471 ] - [ INFO ]  HHH000206: hibernate.properties not found
-2016-07-01 14:13:12  [ main:3486 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
-2016-07-01 14:13:12  [ main:3625 ] - [ INFO ]  HHH000044: Configuring from URL: file:/C:/Users/Baum518/git/HealthB/target/classes/hibernate.cfg.xml
-2016-07-01 14:13:12  [ main:3884 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
-2016-07-01 14:13:13  [ main:4659 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
-2016-07-01 14:13:13  [ main:4662 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
-2016-07-01 14:13:13  [ main:4710 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
-2016-07-01 14:13:13  [ main:4712 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
-2016-07-01 14:13:13  [ main:4714 ] - [ INFO ]  HHH000006: Autocommit mode: false
-2016-07-01 14:13:13  [ main:5113 ] - [ INFO ]  MLog clients using log4j logging.
-2016-07-01 14:13:14  [ main:5896 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2016-07-01 14:13:15  [ main:6284 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@ef57f77 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@dbbf57b [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1mn1smd9h19t19u01aiqljs|50de186c, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@20e0ed8d [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19t19u01aiqljs|727eb8cb, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19t19u01aiqljs|5b367418, numHelperThreads -> 3 ]
-2016-07-01 14:13:17  [ main:8448 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
-2016-07-01 14:13:17  [ main:8505 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2016-07-01 14:13:17  [ main:8571 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-07-01 14:13:17  [ main:8602 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
-2016-07-01 14:13:18  [ main:9455 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
-2016-07-01 14:13:18  [ main:9458 ] - [ INFO ]  HHH000102: Fetching database metadata
-2016-07-01 14:13:18  [ main:9498 ] - [ INFO ]  HHH000396: Updating schema
-2016-07-01 14:13:18  [ main:9996 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Info
-2016-07-01 14:13:18  [ main:9999 ] - [ INFO ]  HHH000037: Columns: [password, batchno, createtime, producer, simnumber, id, deviceid, deviceidwithchar, devicetype]
-2016-07-01 14:13:18  [ main:10001 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:13:18  [ main:10004 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273c69fb99]
-2016-07-01 14:13:18  [ main:10103 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Type
-2016-07-01 14:13:18  [ main:10105 ] - [ INFO ]  HHH000037: Columns: [devicename, id, devicetype]
-2016-07-01 14:13:18  [ main:10107 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:13:18  [ main:10110 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273f466844]
-2016-07-01 14:13:19  [ main:10214 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Record_BloodPressure
-2016-07-01 14:13:19  [ main:10216 ] - [ INFO ]  HHH000037: Columns: [sbp, note, mnc, deletetime, heartrate, cellid, userid, deviceid, lac, deleteuserid, dbp, arrhythmia, mbp, id, isdelete, measuretime]
-2016-07-01 14:13:19  [ main:10218 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:13:19  [ main:10219 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_recor__3214ec274222d4ef]
-2016-07-01 14:13:19  [ main:10313 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User
-2016-07-01 14:13:19  [ main:10316 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, registername, passwordmd5]
-2016-07-01 14:13:19  [ main:10318 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:13:19  [ main:10320 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec2744ff419a]
-2016-07-01 14:13:19  [ main:10774 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Device_Relation
-2016-07-01 14:13:19  [ main:10775 ] - [ INFO ]  HHH000037: Columns: [note, createtime, unbinduserid, unbindtime, id, isunbind, userid, deviceid, deviceuser]
-2016-07-01 14:13:19  [ main:10777 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:13:19  [ main:10780 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec2747dbae45]
-2016-07-01 14:13:19  [ main:10883 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Info
-2016-07-01 14:13:19  [ main:10885 ] - [ INFO ]  HHH000037: Columns: [country, phonenumber2, createtime, birthdate, phonenumber1, address, unsubcibetime, city, openid, medicalhistory, sex, language, userid, realname, realnamepy, province, mobilephone, headimgurl, subscibetime, unsubscibetime, id]
-2016-07-01 14:13:19  [ main:10888 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:13:19  [ main:10890 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec274ab81af0]
-2016-07-01 14:13:19  [ main:10897 ] - [ INFO ]  HHH000232: Schema update complete
-2016-07-01 14:13:21  [ main:12127 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@ef57f77 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@dbbf57b [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1mn1smd9h19t19u01aiqljs|50de186c, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@20e0ed8d [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19t19u01aiqljs|727eb8cb, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19t19u01aiqljs|5b367418, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
-2016-07-01 14:13:21  [ main:12395 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4eeea57d] to prepare test instance [me.groupb.test.sqlserver.TestUser@5c7fa833]
+2016-07-03 14:07:53  [ Thread-5:13841 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@6d4b1c02: startup date [Sun Jul 03 14:07:42 CST 2016]; root of context hierarchy
+2016-07-03 14:08:28  [ main:990 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-07-03 14:08:29  [ main:2078 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@7cd62f43: startup date [Sun Jul 03 14:08:29 CST 2016]; root of context hierarchy
+2016-07-03 14:08:30  [ main:3797 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-07-03 14:08:31  [ main:3836 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2016-07-03 14:08:31  [ main:3850 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-07-03 14:08:31  [ main:3865 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-07-03 14:08:31  [ main:4029 ] - [ INFO ]  HHH000044: Configuring from URL: file:/C:/Users/Baum518/git/HealthB/target/classes/hibernate.cfg.xml
+2016-07-03 14:08:31  [ main:4310 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-07-03 14:08:32  [ main:5016 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2016-07-03 14:08:32  [ main:5018 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2016-07-03 14:08:32  [ main:5066 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
+2016-07-03 14:08:32  [ main:5069 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
+2016-07-03 14:08:32  [ main:5072 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-07-03 14:08:32  [ main:5474 ] - [ INFO ]  MLog clients using log4j logging.
+2016-07-03 14:08:33  [ main:6268 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-07-03 14:08:33  [ main:6601 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@91fba563 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@7646871d [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9dn9h1cnqy3ej66qnq|e383572, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@f4d2b641 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cnqy3ej66qnq|ae3540e, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cnqy3ej66qnq|3899782c, numHelperThreads -> 3 ]
+2016-07-03 14:08:35  [ main:8196 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-07-03 14:08:35  [ main:8255 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-07-03 14:08:35  [ main:8332 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-07-03 14:08:35  [ main:8361 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-07-03 14:08:36  [ main:9266 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-07-03 14:08:36  [ main:9268 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-07-03 14:08:36  [ main:9312 ] - [ INFO ]  HHH000396: Updating schema
+2016-07-03 14:08:36  [ main:9512 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Info
+2016-07-03 14:08:36  [ main:9514 ] - [ INFO ]  HHH000037: Columns: [password, batchno, createtime, producer, simnumber, id, deviceid, deviceidwithchar, devicetype]
+2016-07-03 14:08:36  [ main:9516 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:08:36  [ main:9518 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273c69fb99]
+2016-07-03 14:08:36  [ main:9617 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Type
+2016-07-03 14:08:36  [ main:9618 ] - [ INFO ]  HHH000037: Columns: [devicename, id, devicetype]
+2016-07-03 14:08:36  [ main:9621 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:08:36  [ main:9623 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273f466844]
+2016-07-03 14:08:36  [ main:9732 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Record_BloodPressure
+2016-07-03 14:08:36  [ main:9734 ] - [ INFO ]  HHH000037: Columns: [sbp, note, mnc, deletetime, heartrate, cellid, userid, deviceid, lac, deleteuserid, dbp, arrhythmia, mbp, id, isdelete, measuretime]
+2016-07-03 14:08:36  [ main:9736 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:08:36  [ main:9740 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_recor__3214ec274222d4ef]
+2016-07-03 14:08:37  [ main:9844 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User
+2016-07-03 14:08:37  [ main:9846 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, registername, passwordmd5]
+2016-07-03 14:08:37  [ main:9848 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:08:37  [ main:9850 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec2744ff419a]
+2016-07-03 14:08:37  [ main:9950 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Device_Relation
+2016-07-03 14:08:37  [ main:9952 ] - [ INFO ]  HHH000037: Columns: [note, createtime, unbinduserid, unbindtime, id, isunbind, userid, deviceid, deviceuser]
+2016-07-03 14:08:37  [ main:9954 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:08:37  [ main:9956 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec2747dbae45]
+2016-07-03 14:08:37  [ main:10070 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Info
+2016-07-03 14:08:37  [ main:10072 ] - [ INFO ]  HHH000037: Columns: [country, phonenumber2, createtime, birthdate, phonenumber1, address, unsubcibetime, city, openid, medicalhistory, sex, language, userid, realname, realnamepy, province, mobilephone, headimgurl, subscibetime, unsubscibetime, id]
+2016-07-03 14:08:37  [ main:10074 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:08:37  [ main:10076 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec274ab81af0]
+2016-07-03 14:08:37  [ main:10081 ] - [ INFO ]  HHH000232: Schema update complete
+2016-07-03 14:08:38  [ main:11415 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@91fba563 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@7646871d [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9dn9h1cnqy3ej66qnq|e383572, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@f4d2b641 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cnqy3ej66qnq|ae3540e, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cnqy3ej66qnq|3899782c, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-07-03 14:08:39  [ main:12500 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@214894fc] to prepare test instance [me.groupb.test.sqlserver.TestUser@51565ec2]
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'me.groupb.test.sqlserver.TestUser': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire method: public void org.springframework.test.context.junit4.AbstractTransactionalJUnit4SpringContextTests.setDataSource(javax.sql.DataSource); nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [javax.sql.DataSource] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
@@ -320,57 +177,183 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:553)
 	... 28 more
-2016-07-01 14:13:21  [ Thread-5:12463 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@1794d431: startup date [Fri Jul 01 14:13:11 CST 2016]; root of context hierarchy
-2016-07-01 14:17:15  [ main:1795 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
-2016-07-01 14:17:17  [ main:3962 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@1794d431: startup date [Fri Jul 01 14:17:17 CST 2016]; root of context hierarchy
-2016-07-01 14:17:20  [ main:7122 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2016-07-01 14:17:20  [ main:7183 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
-2016-07-01 14:17:21  [ main:7235 ] - [ INFO ]  HHH000206: hibernate.properties not found
-2016-07-01 14:17:21  [ main:7254 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
-2016-07-01 14:17:21  [ main:7470 ] - [ INFO ]  HHH000044: Configuring from URL: file:/C:/Users/Baum518/git/HealthB/target/classes/hibernate.cfg.xml
-2016-07-01 14:17:21  [ main:7881 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
-2016-07-01 14:17:23  [ main:9887 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
-2016-07-01 14:17:23  [ main:9893 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
-2016-07-01 14:17:23  [ main:9974 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
-2016-07-01 14:17:23  [ main:9984 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
-2016-07-01 14:17:23  [ main:9986 ] - [ INFO ]  HHH000006: Autocommit mode: false
-2016-07-01 14:17:24  [ main:10819 ] - [ INFO ]  MLog clients using log4j logging.
-2016-07-01 14:17:25  [ main:12052 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2016-07-01 14:17:26  [ main:12657 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@1eb4bd5b [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@22219628 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1mn1smd9h19t6nahtcbrjt|71329995, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@e6985f49 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19t6nahtcbrjt|563e4951, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19t6nahtcbrjt|1838ccb8, numHelperThreads -> 3 ]
-2016-07-01 14:17:29  [ main:15692 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
-2016-07-01 14:17:29  [ main:15789 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2016-07-01 14:17:29  [ main:15915 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-07-01 14:17:29  [ main:16004 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
-2016-07-01 14:17:30  [ main:17187 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
-2016-07-01 14:17:30  [ main:17189 ] - [ INFO ]  HHH000102: Fetching database metadata
-2016-07-01 14:17:31  [ main:18165 ] - [ INFO ]  HHH000396: Updating schema
-2016-07-01 14:17:32  [ main:18483 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Info
-2016-07-01 14:17:32  [ main:18486 ] - [ INFO ]  HHH000037: Columns: [password, batchno, createtime, producer, simnumber, id, deviceid, deviceidwithchar, devicetype]
-2016-07-01 14:17:32  [ main:18488 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:17:32  [ main:18490 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273c69fb99]
-2016-07-01 14:17:32  [ main:18598 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Type
-2016-07-01 14:17:32  [ main:18600 ] - [ INFO ]  HHH000037: Columns: [devicename, id, devicetype]
-2016-07-01 14:17:32  [ main:18602 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:17:32  [ main:18604 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273f466844]
-2016-07-01 14:17:33  [ main:19983 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Record_BloodPressure
-2016-07-01 14:17:33  [ main:19987 ] - [ INFO ]  HHH000037: Columns: [sbp, note, mnc, deletetime, heartrate, cellid, userid, deviceid, lac, deleteuserid, dbp, arrhythmia, mbp, id, isdelete, measuretime]
-2016-07-01 14:17:33  [ main:19989 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:17:33  [ main:19992 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_recor__3214ec274222d4ef]
-2016-07-01 14:17:33  [ main:20091 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User
-2016-07-01 14:17:33  [ main:20093 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, registername, passwordmd5]
-2016-07-01 14:17:33  [ main:20096 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:17:33  [ main:20098 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec2744ff419a]
-2016-07-01 14:17:34  [ main:20208 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Device_Relation
-2016-07-01 14:17:34  [ main:20211 ] - [ INFO ]  HHH000037: Columns: [note, createtime, unbinduserid, unbindtime, id, isunbind, userid, deviceid, deviceuser]
-2016-07-01 14:17:34  [ main:20213 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:17:34  [ main:20215 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec2747dbae45]
-2016-07-01 14:17:34  [ main:20327 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Info
-2016-07-01 14:17:34  [ main:20329 ] - [ INFO ]  HHH000037: Columns: [country, phonenumber2, createtime, birthdate, phonenumber1, address, unsubcibetime, city, openid, medicalhistory, sex, language, userid, realname, realnamepy, province, mobilephone, headimgurl, subscibetime, unsubscibetime, id]
-2016-07-01 14:17:34  [ main:20331 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 14:17:34  [ main:20333 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec274ab81af0]
-2016-07-01 14:17:34  [ main:20339 ] - [ INFO ]  HHH000232: Schema update complete
-2016-07-01 14:17:35  [ main:22079 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@1eb4bd5b [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@22219628 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1mn1smd9h19t6nahtcbrjt|71329995, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@e6985f49 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19t6nahtcbrjt|563e4951, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19t6nahtcbrjt|1838ccb8, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
-2016-07-01 14:17:36  [ main:22403 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6691490c] to prepare test instance [me.groupb.test.sqlserver.TestUser@5c7fa833]
+2016-07-03 14:08:39  [ Thread-5:12541 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@7cd62f43: startup date [Sun Jul 03 14:08:29 CST 2016]; root of context hierarchy
+2016-07-03 14:34:53  [ main:875 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-07-03 14:34:54  [ main:1935 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@6d4b1c02: startup date [Sun Jul 03 14:34:54 CST 2016]; root of context hierarchy
+2016-07-03 14:34:55  [ main:3667 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-07-03 14:34:55  [ main:3692 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2016-07-03 14:34:55  [ main:3702 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-07-03 14:34:55  [ main:3710 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-07-03 14:34:56  [ main:3817 ] - [ INFO ]  HHH000044: Configuring from URL: file:/C:/Users/Baum518/git/HealthB/target/classes/hibernate.cfg.xml
+2016-07-03 14:34:56  [ main:4074 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-07-03 14:34:57  [ main:4907 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2016-07-03 14:34:57  [ main:4910 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2016-07-03 14:34:57  [ main:4972 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
+2016-07-03 14:34:57  [ main:4976 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
+2016-07-03 14:34:57  [ main:4979 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-07-03 14:34:57  [ main:5509 ] - [ INFO ]  MLog clients using log4j logging.
+2016-07-03 14:34:58  [ main:6294 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-07-03 14:34:58  [ main:6629 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@d8d4c8ab [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@70d0c704 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9dn9h1coox6cwz6xf0|5f9be66c, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@4fee394c [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1coox6cwz6xf0|50de186c, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1coox6cwz6xf0|332796d3, numHelperThreads -> 3 ]
+2016-07-03 14:35:00  [ main:8253 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-07-03 14:35:00  [ main:8323 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-07-03 14:35:00  [ main:8408 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-07-03 14:35:00  [ main:8427 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-07-03 14:35:01  [ main:9188 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-07-03 14:35:01  [ main:9190 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-07-03 14:35:01  [ main:9230 ] - [ INFO ]  HHH000396: Updating schema
+2016-07-03 14:35:01  [ main:9447 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Info
+2016-07-03 14:35:01  [ main:9450 ] - [ INFO ]  HHH000037: Columns: [password, batchno, createtime, producer, simnumber, id, deviceid, deviceidwithchar, devicetype]
+2016-07-03 14:35:01  [ main:9452 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:35:01  [ main:9455 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273c69fb99]
+2016-07-03 14:35:01  [ main:9566 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Type
+2016-07-03 14:35:01  [ main:9568 ] - [ INFO ]  HHH000037: Columns: [devicename, id, devicetype]
+2016-07-03 14:35:01  [ main:9571 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:35:01  [ main:9573 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273f466844]
+2016-07-03 14:35:01  [ main:9694 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Record_BloodPressure
+2016-07-03 14:35:01  [ main:9696 ] - [ INFO ]  HHH000037: Columns: [sbp, note, mnc, deletetime, heartrate, cellid, userid, deviceid, lac, deleteuserid, dbp, arrhythmia, mbp, id, isdelete, measuretime]
+2016-07-03 14:35:01  [ main:9699 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:35:01  [ main:9702 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_recor__3214ec274222d4ef]
+2016-07-03 14:35:02  [ main:9807 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User
+2016-07-03 14:35:02  [ main:9809 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, registername, passwordmd5]
+2016-07-03 14:35:02  [ main:9812 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:35:02  [ main:9815 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec2744ff419a]
+2016-07-03 14:35:02  [ main:9921 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Device_Relation
+2016-07-03 14:35:02  [ main:9923 ] - [ INFO ]  HHH000037: Columns: [note, createtime, unbinduserid, unbindtime, id, isunbind, userid, deviceid, deviceuser]
+2016-07-03 14:35:02  [ main:9925 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:35:02  [ main:9929 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec2747dbae45]
+2016-07-03 14:35:02  [ main:10041 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Info
+2016-07-03 14:35:02  [ main:10044 ] - [ INFO ]  HHH000037: Columns: [country, phonenumber2, createtime, birthdate, phonenumber1, address, unsubcibetime, city, openid, medicalhistory, sex, language, userid, realname, realnamepy, province, mobilephone, headimgurl, subscibetime, unsubscibetime, id]
+2016-07-03 14:35:02  [ main:10046 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:35:02  [ main:10052 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec274ab81af0]
+2016-07-03 14:35:02  [ main:10062 ] - [ INFO ]  HHH000232: Schema update complete
+2016-07-03 14:35:03  [ main:11294 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@d8d4c8ab [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@70d0c704 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9dn9h1coox6cwz6xf0|5f9be66c, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@4fee394c [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1coox6cwz6xf0|50de186c, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1coox6cwz6xf0|332796d3, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-07-03 14:35:03  [ main:11537 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2b5cb9b2] to prepare test instance [me.groupb.test.sqlserver.TestUser@482f8f11]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:101)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'UserAction': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private me.groupb.service.UserService me.groupb.action.UserAction.userService; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [me.groupb.test.sqlserver] for bean with name 'testA' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: me.groupb.test.sqlserver
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:700)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:121)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:250)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContextInternal(CacheAwareContextLoaderDelegate.java:64)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:91)
+	... 25 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private me.groupb.service.UserService me.groupb.action.UserAction.userService; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [me.groupb.test.sqlserver] for bean with name 'testA' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: me.groupb.test.sqlserver
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	... 41 more
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [me.groupb.test.sqlserver] for bean with name 'testA' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: me.groupb.test.sqlserver
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1327)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1396)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:382)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:361)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:999)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:957)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:480)
+	... 43 more
+Caused by: java.lang.ClassNotFoundException: me.groupb.test.sqlserver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:236)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:392)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1348)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1319)
+	... 52 more
+2016-07-03 14:42:12  [ main:914 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-07-03 14:42:13  [ main:1939 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@6d4b1c02: startup date [Sun Jul 03 14:42:13 CST 2016]; root of context hierarchy
+2016-07-03 14:42:15  [ main:3497 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-07-03 14:42:15  [ main:3533 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2016-07-03 14:42:15  [ main:3544 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-07-03 14:42:15  [ main:3555 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-07-03 14:42:15  [ main:3668 ] - [ INFO ]  HHH000044: Configuring from URL: file:/C:/Users/Baum518/git/HealthB/target/classes/hibernate.cfg.xml
+2016-07-03 14:42:15  [ main:3922 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-07-03 14:42:16  [ main:4638 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2016-07-03 14:42:16  [ main:4642 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2016-07-03 14:42:16  [ main:4689 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
+2016-07-03 14:42:16  [ main:4691 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
+2016-07-03 14:42:16  [ main:4693 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-07-03 14:42:16  [ main:5103 ] - [ INFO ]  MLog clients using log4j logging.
+2016-07-03 14:42:17  [ main:5859 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-07-03 14:42:17  [ main:6196 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@d3e5f3c0 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@4ed6479b [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9dn9h1coybvc9rldfx|60856961, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@246431d3 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1coybvc9rldfx|69f1a286, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1coybvc9rldfx|4b23c30a, numHelperThreads -> 3 ]
+2016-07-03 14:42:19  [ main:7795 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-07-03 14:42:19  [ main:7843 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-07-03 14:42:19  [ main:7904 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-07-03 14:42:19  [ main:7936 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-07-03 14:42:20  [ main:8729 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-07-03 14:42:20  [ main:8731 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-07-03 14:42:20  [ main:8769 ] - [ INFO ]  HHH000396: Updating schema
+2016-07-03 14:42:20  [ main:8986 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Info
+2016-07-03 14:42:20  [ main:8989 ] - [ INFO ]  HHH000037: Columns: [password, batchno, createtime, producer, simnumber, id, deviceid, deviceidwithchar, devicetype]
+2016-07-03 14:42:20  [ main:8991 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:42:20  [ main:8993 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273c69fb99]
+2016-07-03 14:42:20  [ main:9101 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Type
+2016-07-03 14:42:20  [ main:9103 ] - [ INFO ]  HHH000037: Columns: [devicename, id, devicetype]
+2016-07-03 14:42:20  [ main:9105 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:42:20  [ main:9107 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273f466844]
+2016-07-03 14:42:20  [ main:9211 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Record_BloodPressure
+2016-07-03 14:42:20  [ main:9213 ] - [ INFO ]  HHH000037: Columns: [sbp, note, mnc, deletetime, heartrate, cellid, userid, deviceid, lac, deleteuserid, dbp, arrhythmia, mbp, id, isdelete, measuretime]
+2016-07-03 14:42:20  [ main:9215 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:42:20  [ main:9219 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_recor__3214ec274222d4ef]
+2016-07-03 14:42:20  [ main:9327 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User
+2016-07-03 14:42:20  [ main:9329 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, registername, passwordmd5]
+2016-07-03 14:42:20  [ main:9331 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:42:20  [ main:9333 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec2744ff419a]
+2016-07-03 14:42:21  [ main:9436 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Device_Relation
+2016-07-03 14:42:21  [ main:9438 ] - [ INFO ]  HHH000037: Columns: [note, createtime, unbinduserid, unbindtime, id, isunbind, userid, deviceid, deviceuser]
+2016-07-03 14:42:21  [ main:9440 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:42:21  [ main:9443 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec2747dbae45]
+2016-07-03 14:42:21  [ main:9546 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Info
+2016-07-03 14:42:21  [ main:9549 ] - [ INFO ]  HHH000037: Columns: [country, phonenumber2, createtime, birthdate, phonenumber1, address, unsubcibetime, city, openid, medicalhistory, sex, language, userid, realname, realnamepy, province, mobilephone, headimgurl, subscibetime, unsubscibetime, id]
+2016-07-03 14:42:21  [ main:9551 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 14:42:21  [ main:9553 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec274ab81af0]
+2016-07-03 14:42:21  [ main:9559 ] - [ INFO ]  HHH000232: Schema update complete
+2016-07-03 14:42:22  [ main:10623 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@d3e5f3c0 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@4ed6479b [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9dn9h1coybvc9rldfx|60856961, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@246431d3 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1coybvc9rldfx|69f1a286, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1coybvc9rldfx|4b23c30a, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-07-03 14:42:23  [ main:11600 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1c4ee95c] to prepare test instance [me.groupb.test.sqlserver.TestUser@482f8f11]
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'me.groupb.test.sqlserver.TestUser': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire method: public void org.springframework.test.context.junit4.AbstractTransactionalJUnit4SpringContextTests.setDataSource(javax.sql.DataSource); nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [javax.sql.DataSource] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
@@ -410,58 +393,58 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:553)
 	... 28 more
-2016-07-01 14:17:36  [ Thread-5:22486 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@1794d431: startup date [Fri Jul 01 14:17:17 CST 2016]; root of context hierarchy
-2016-07-01 17:18:34  [ main:1350 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
-2016-07-01 17:18:36  [ main:3343 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@6d4b1c02: startup date [Fri Jul 01 17:18:36 CST 2016]; root of context hierarchy
-2016-07-01 17:18:40  [ main:6535 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-2016-07-01 17:18:40  [ main:6595 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
-2016-07-01 17:18:40  [ main:6616 ] - [ INFO ]  HHH000206: hibernate.properties not found
-2016-07-01 17:18:40  [ main:6636 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
-2016-07-01 17:18:40  [ main:6887 ] - [ INFO ]  HHH000044: Configuring from URL: file:/C:/Users/Baum518/git/HealthB/target/classes/hibernate.cfg.xml
-2016-07-01 17:18:40  [ main:7303 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
-2016-07-01 17:18:41  [ main:8392 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
-2016-07-01 17:18:41  [ main:8395 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
-2016-07-01 17:18:42  [ main:8465 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
-2016-07-01 17:18:42  [ main:8470 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
-2016-07-01 17:18:42  [ main:8473 ] - [ INFO ]  HHH000006: Autocommit mode: false
-2016-07-01 17:18:42  [ main:9113 ] - [ INFO ]  MLog clients using log4j logging.
-2016-07-01 17:18:43  [ main:10367 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2016-07-01 17:18:44  [ main:11160 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@a5b20047 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@35e3445d [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1mn1smd9h19znstcrvnlia|363a52f, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@80284f7c [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19znstcrvnlia|3688eb5b, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19znstcrvnlia|9ebe38b, numHelperThreads -> 3 ]
-2016-07-01 17:18:46  [ main:13362 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
-2016-07-01 17:18:46  [ main:13441 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2016-07-01 17:18:51  [ main:18022 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
-2016-07-01 17:18:51  [ main:18059 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
-2016-07-01 17:18:52  [ main:19320 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
-2016-07-01 17:18:52  [ main:19323 ] - [ INFO ]  HHH000102: Fetching database metadata
-2016-07-01 17:18:53  [ main:19677 ] - [ INFO ]  HHH000396: Updating schema
-2016-07-01 17:18:53  [ main:20020 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Info
-2016-07-01 17:18:53  [ main:20022 ] - [ INFO ]  HHH000037: Columns: [password, batchno, createtime, producer, simnumber, id, deviceid, deviceidwithchar, devicetype]
-2016-07-01 17:18:53  [ main:20026 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 17:18:53  [ main:20031 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273c69fb99]
-2016-07-01 17:18:53  [ main:20152 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Type
-2016-07-01 17:18:53  [ main:20155 ] - [ INFO ]  HHH000037: Columns: [devicename, id, devicetype]
-2016-07-01 17:18:53  [ main:20158 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 17:18:53  [ main:20160 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273f466844]
-2016-07-01 17:18:54  [ main:21220 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Record_BloodPressure
-2016-07-01 17:18:54  [ main:21223 ] - [ INFO ]  HHH000037: Columns: [sbp, note, mnc, deletetime, heartrate, cellid, userid, deviceid, lac, deleteuserid, dbp, arrhythmia, mbp, id, isdelete, measuretime]
-2016-07-01 17:18:54  [ main:21225 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 17:18:54  [ main:21229 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_recor__3214ec274222d4ef]
-2016-07-01 17:18:54  [ main:21331 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User
-2016-07-01 17:18:54  [ main:21335 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, registername, passwordmd5]
-2016-07-01 17:18:54  [ main:21338 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 17:18:54  [ main:21341 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec2744ff419a]
-2016-07-01 17:18:54  [ main:21436 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Device_Relation
-2016-07-01 17:18:54  [ main:21439 ] - [ INFO ]  HHH000037: Columns: [note, createtime, unbinduserid, unbindtime, id, isunbind, userid, deviceid, deviceuser]
-2016-07-01 17:18:54  [ main:21443 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 17:18:54  [ main:21445 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec2747dbae45]
-2016-07-01 17:18:55  [ main:21552 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Info
-2016-07-01 17:18:55  [ main:21555 ] - [ INFO ]  HHH000037: Columns: [country, phonenumber2, createtime, birthdate, phonenumber1, address, unsubcibetime, city, openid, medicalhistory, sex, language, userid, realname, realnamepy, province, mobilephone, headimgurl, subscibetime, unsubscibetime, id]
-2016-07-01 17:18:55  [ main:21560 ] - [ INFO ]  HHH000108: Foreign keys: []
-2016-07-01 17:18:55  [ main:21563 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec274ab81af0]
-2016-07-01 17:18:55  [ main:21573 ] - [ INFO ]  HHH000232: Schema update complete
-2016-07-01 17:18:56  [ main:23043 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@a5b20047 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@35e3445d [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1mn1smd9h19znstcrvnlia|363a52f, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@80284f7c [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19znstcrvnlia|3688eb5b, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19znstcrvnlia|9ebe38b, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
-2016-07-01 17:19:01  [ main:27463 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e362c57] to prepare test instance [me.groupb.service.UserServiceTest@482f8f11]
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'me.groupb.service.UserServiceTest': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire method: public void org.springframework.test.context.junit4.AbstractTransactionalJUnit4SpringContextTests.setDataSource(javax.sql.DataSource); nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [javax.sql.DataSource] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+2016-07-03 14:42:23  [ Thread-5:11706 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@6d4b1c02: startup date [Sun Jul 03 14:42:13 CST 2016]; root of context hierarchy
+2016-07-03 15:05:22  [ main:1522 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-07-03 15:05:24  [ main:2905 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@7cd62f43: startup date [Sun Jul 03 15:05:24 CST 2016]; root of context hierarchy
+2016-07-03 15:05:25  [ main:4456 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-07-03 15:05:25  [ main:4493 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2016-07-03 15:05:25  [ main:4510 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-07-03 15:05:25  [ main:4521 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-07-03 15:05:25  [ main:4742 ] - [ INFO ]  HHH000044: Configuring from URL: file:/C:/Users/Baum518/git/HealthB/target/classes/hibernate.cfg.xml
+2016-07-03 15:05:26  [ main:5281 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-07-03 15:05:27  [ main:6183 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2016-07-03 15:05:27  [ main:6186 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2016-07-03 15:05:27  [ main:6237 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
+2016-07-03 15:05:27  [ main:6239 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
+2016-07-03 15:05:27  [ main:6242 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-07-03 15:05:27  [ main:6709 ] - [ INFO ]  MLog clients using log4j logging.
+2016-07-03 15:05:28  [ main:7720 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-07-03 15:05:29  [ main:8087 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@4a494627 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@da7a8a3d [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9dn9h1cps5bm185wgis|363a52f, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@6e79c59c [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cps5bm185wgis|3688eb5b, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cps5bm185wgis|9ebe38b, numHelperThreads -> 3 ]
+2016-07-03 15:05:30  [ main:9580 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-07-03 15:05:30  [ main:9626 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-07-03 15:05:30  [ main:9680 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-07-03 15:05:30  [ main:9707 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-07-03 15:05:31  [ main:10514 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-07-03 15:05:31  [ main:10518 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-07-03 15:05:31  [ main:10568 ] - [ INFO ]  HHH000396: Updating schema
+2016-07-03 15:05:32  [ main:10809 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Info
+2016-07-03 15:05:32  [ main:10812 ] - [ INFO ]  HHH000037: Columns: [password, batchno, createtime, producer, simnumber, id, deviceid, deviceidwithchar, devicetype]
+2016-07-03 15:05:32  [ main:10814 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:05:32  [ main:10816 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273c69fb99]
+2016-07-03 15:05:32  [ main:10926 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Type
+2016-07-03 15:05:32  [ main:10929 ] - [ INFO ]  HHH000037: Columns: [devicename, id, devicetype]
+2016-07-03 15:05:32  [ main:10931 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:05:32  [ main:10933 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273f466844]
+2016-07-03 15:05:32  [ main:11046 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Record_BloodPressure
+2016-07-03 15:05:32  [ main:11048 ] - [ INFO ]  HHH000037: Columns: [sbp, note, mnc, deletetime, heartrate, cellid, userid, deviceid, lac, deleteuserid, dbp, arrhythmia, mbp, id, isdelete, measuretime]
+2016-07-03 15:05:32  [ main:11051 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:05:32  [ main:11053 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_recor__3214ec274222d4ef]
+2016-07-03 15:05:32  [ main:11157 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User
+2016-07-03 15:05:32  [ main:11160 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, registername, passwordmd5]
+2016-07-03 15:05:32  [ main:11162 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:05:32  [ main:11164 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec2744ff419a]
+2016-07-03 15:05:32  [ main:11260 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Device_Relation
+2016-07-03 15:05:32  [ main:11263 ] - [ INFO ]  HHH000037: Columns: [note, createtime, unbinduserid, unbindtime, id, isunbind, userid, deviceid, deviceuser]
+2016-07-03 15:05:32  [ main:11265 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:05:32  [ main:11267 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec2747dbae45]
+2016-07-03 15:05:32  [ main:11388 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Info
+2016-07-03 15:05:32  [ main:11390 ] - [ INFO ]  HHH000037: Columns: [country, phonenumber2, createtime, birthdate, phonenumber1, address, unsubcibetime, city, openid, medicalhistory, sex, language, userid, realname, realnamepy, province, mobilephone, headimgurl, subscibetime, unsubscibetime, id]
+2016-07-03 15:05:32  [ main:11393 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:05:32  [ main:11395 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec274ab81af0]
+2016-07-03 15:05:32  [ main:11402 ] - [ INFO ]  HHH000232: Schema update complete
+2016-07-03 15:05:33  [ main:12482 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@4a494627 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@da7a8a3d [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9dn9h1cps5bm185wgis|363a52f, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@6e79c59c [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cps5bm185wgis|3688eb5b, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cps5bm185wgis|9ebe38b, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-07-03 15:05:34  [ main:13215 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e362c57] to prepare test instance [me.groupb.test.sqlserver.TestUser@51565ec2]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'me.groupb.test.sqlserver.TestUser': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire method: public void org.springframework.test.context.junit4.AbstractTransactionalJUnit4SpringContextTests.setDataSource(javax.sql.DataSource); nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [javax.sql.DataSource] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:384)
@@ -500,4 +483,144 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:553)
 	... 28 more
-2016-07-01 17:19:01  [ Thread-5:27572 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@6d4b1c02: startup date [Fri Jul 01 17:18:36 CST 2016]; root of context hierarchy
+2016-07-03 15:05:34  [ Thread-5:13262 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@7cd62f43: startup date [Sun Jul 03 15:05:24 CST 2016]; root of context hierarchy
+2016-07-03 15:24:23  [ main:1309 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-07-03 15:24:24  [ main:2752 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@7cd62f43: startup date [Sun Jul 03 15:24:24 CST 2016]; root of context hierarchy
+2016-07-03 15:24:26  [ main:4670 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-07-03 15:24:26  [ main:4710 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2016-07-03 15:24:26  [ main:4724 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-07-03 15:24:26  [ main:4734 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-07-03 15:24:26  [ main:4871 ] - [ INFO ]  HHH000044: Configuring from URL: file:/C:/Users/Baum518/git/HealthB/target/classes/hibernate.cfg.xml
+2016-07-03 15:24:27  [ main:5166 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-07-03 15:24:28  [ main:6426 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2016-07-03 15:24:28  [ main:6432 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2016-07-03 15:24:28  [ main:6491 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
+2016-07-03 15:24:28  [ main:6493 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
+2016-07-03 15:24:28  [ main:6495 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-07-03 15:24:29  [ main:7035 ] - [ INFO ]  MLog clients using log4j logging.
+2016-07-03 15:24:30  [ main:7953 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-07-03 15:24:30  [ main:8337 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@df5409b7 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@6f854dcd [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9dn9h1cqglvn8muqhz|363a52f, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@7ac7740c [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cqglvn8muqhz|3688eb5b, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cqglvn8muqhz|9ebe38b, numHelperThreads -> 3 ]
+2016-07-03 15:24:32  [ main:10109 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-07-03 15:24:32  [ main:10165 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-07-03 15:24:32  [ main:10235 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-07-03 15:24:32  [ main:10281 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-07-03 15:24:33  [ main:11329 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-07-03 15:24:33  [ main:11332 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-07-03 15:24:33  [ main:11378 ] - [ INFO ]  HHH000396: Updating schema
+2016-07-03 15:24:33  [ main:11598 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Info
+2016-07-03 15:24:33  [ main:11600 ] - [ INFO ]  HHH000037: Columns: [password, batchno, createtime, producer, simnumber, id, deviceid, deviceidwithchar, devicetype]
+2016-07-03 15:24:33  [ main:11602 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:24:33  [ main:11605 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273c69fb99]
+2016-07-03 15:24:33  [ main:11702 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Type
+2016-07-03 15:24:33  [ main:11704 ] - [ INFO ]  HHH000037: Columns: [devicename, id, devicetype]
+2016-07-03 15:24:33  [ main:11706 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:24:33  [ main:11708 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273f466844]
+2016-07-03 15:24:33  [ main:11813 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Record_BloodPressure
+2016-07-03 15:24:33  [ main:11816 ] - [ INFO ]  HHH000037: Columns: [sbp, note, mnc, deletetime, heartrate, cellid, userid, deviceid, lac, deleteuserid, dbp, arrhythmia, mbp, id, isdelete, measuretime]
+2016-07-03 15:24:33  [ main:11819 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:24:33  [ main:11821 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_recor__3214ec274222d4ef]
+2016-07-03 15:24:33  [ main:11917 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User
+2016-07-03 15:24:33  [ main:11919 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, registername, passwordmd5]
+2016-07-03 15:24:33  [ main:11921 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:24:34  [ main:11924 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec2744ff419a]
+2016-07-03 15:24:34  [ main:12027 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Device_Relation
+2016-07-03 15:24:34  [ main:12029 ] - [ INFO ]  HHH000037: Columns: [note, createtime, unbinduserid, unbindtime, id, isunbind, userid, deviceid, deviceuser]
+2016-07-03 15:24:34  [ main:12031 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:24:34  [ main:12033 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec2747dbae45]
+2016-07-03 15:24:34  [ main:12141 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Info
+2016-07-03 15:24:34  [ main:12143 ] - [ INFO ]  HHH000037: Columns: [country, phonenumber2, createtime, birthdate, phonenumber1, address, unsubcibetime, city, openid, medicalhistory, sex, language, userid, realname, realnamepy, province, mobilephone, headimgurl, subscibetime, unsubscibetime, id]
+2016-07-03 15:24:34  [ main:12145 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:24:34  [ main:12147 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec274ab81af0]
+2016-07-03 15:24:34  [ main:12153 ] - [ INFO ]  HHH000232: Schema update complete
+2016-07-03 15:24:36  [ main:14283 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@df5409b7 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@6f854dcd [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9dn9h1cqglvn8muqhz|363a52f, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@7ac7740c [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cqglvn8muqhz|3688eb5b, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cqglvn8muqhz|9ebe38b, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-07-03 15:24:37  [ main:15274 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e362c57] to prepare test instance [me.groupb.test.sqlserver.TestUser@51565ec2]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'me.groupb.test.sqlserver.TestUser': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire method: public void org.springframework.test.context.junit4.AbstractTransactionalJUnit4SpringContextTests.setDataSource(javax.sql.DataSource); nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [javax.sql.DataSource] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:384)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:110)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire method: public void org.springframework.test.context.junit4.AbstractTransactionalJUnit4SpringContextTests.setDataSource(javax.sql.DataSource); nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [javax.sql.DataSource] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [javax.sql.DataSource] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:960)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:553)
+	... 28 more
+2016-07-03 15:24:37  [ Thread-5:15329 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@7cd62f43: startup date [Sun Jul 03 15:24:24 CST 2016]; root of context hierarchy
+2016-07-03 15:33:21  [ main:1066 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-07-03 15:33:23  [ main:2366 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@1d057a39: startup date [Sun Jul 03 15:33:23 CST 2016]; root of context hierarchy
+2016-07-03 15:33:24  [ main:4033 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-07-03 15:33:24  [ main:4084 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2016-07-03 15:33:24  [ main:4098 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-07-03 15:33:24  [ main:4108 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-07-03 15:33:24  [ main:4225 ] - [ INFO ]  HHH000044: Configuring from URL: file:/C:/Users/Baum518/git/HealthB/target/classes/hibernate.cfg.xml
+2016-07-03 15:33:25  [ main:4539 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-07-03 15:33:26  [ main:5403 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2016-07-03 15:33:26  [ main:5405 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2016-07-03 15:33:26  [ main:5463 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
+2016-07-03 15:33:26  [ main:5466 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
+2016-07-03 15:33:26  [ main:5470 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-07-03 15:33:26  [ main:6206 ] - [ INFO ]  MLog clients using log4j logging.
+2016-07-03 15:33:27  [ main:7175 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-07-03 15:33:28  [ main:7852 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@d4bdbc34 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@3cce753a [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9dn9h1cqs4vdgt6592|60df60da, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@fd7b581 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cqs4vdgt6592|4b213651, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cqs4vdgt6592|7b420819, numHelperThreads -> 3 ]
+2016-07-03 15:33:30  [ main:10183 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-07-03 15:33:30  [ main:10244 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-07-03 15:33:31  [ main:10316 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-07-03 15:33:31  [ main:10362 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-07-03 15:33:32  [ main:11283 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-07-03 15:33:32  [ main:11285 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-07-03 15:33:32  [ main:11328 ] - [ INFO ]  HHH000396: Updating schema
+2016-07-03 15:33:32  [ main:11555 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Info
+2016-07-03 15:33:32  [ main:11558 ] - [ INFO ]  HHH000037: Columns: [password, batchno, createtime, producer, simnumber, id, deviceid, deviceidwithchar, devicetype]
+2016-07-03 15:33:32  [ main:11561 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:33:32  [ main:11565 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273c69fb99]
+2016-07-03 15:33:32  [ main:11676 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Type
+2016-07-03 15:33:32  [ main:11679 ] - [ INFO ]  HHH000037: Columns: [devicename, id, devicetype]
+2016-07-03 15:33:32  [ main:11682 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:33:32  [ main:11684 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273f466844]
+2016-07-03 15:33:32  [ main:11794 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Record_BloodPressure
+2016-07-03 15:33:32  [ main:11798 ] - [ INFO ]  HHH000037: Columns: [sbp, note, mnc, deletetime, heartrate, cellid, userid, deviceid, lac, deleteuserid, dbp, arrhythmia, mbp, id, isdelete, measuretime]
+2016-07-03 15:33:32  [ main:11801 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:33:32  [ main:11803 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_recor__3214ec274222d4ef]
+2016-07-03 15:33:32  [ main:11909 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User
+2016-07-03 15:33:32  [ main:11911 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, registername, passwordmd5]
+2016-07-03 15:33:32  [ main:11914 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:33:32  [ main:11917 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec2744ff419a]
+2016-07-03 15:33:32  [ main:12025 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Device_Relation
+2016-07-03 15:33:32  [ main:12028 ] - [ INFO ]  HHH000037: Columns: [note, createtime, unbinduserid, unbindtime, id, isunbind, userid, deviceid, deviceuser]
+2016-07-03 15:33:32  [ main:12030 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:33:32  [ main:12034 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec2747dbae45]
+2016-07-03 15:33:32  [ main:12151 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Info
+2016-07-03 15:33:32  [ main:12154 ] - [ INFO ]  HHH000037: Columns: [country, phonenumber2, createtime, birthdate, phonenumber1, address, unsubcibetime, city, openid, medicalhistory, sex, language, userid, realname, realnamepy, province, mobilephone, headimgurl, subscibetime, unsubscibetime, id]
+2016-07-03 15:33:32  [ main:12156 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-03 15:33:32  [ main:12159 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec274ab81af0]
+2016-07-03 15:33:32  [ main:12167 ] - [ INFO ]  HHH000232: Schema update complete
+2016-07-03 15:33:35  [ main:14513 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@d4bdbc34 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@3cce753a [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> xuf9dn9h1cqs4vdgt6592|60df60da, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@fd7b581 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cqs4vdgt6592|4b213651, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> xuf9dn9h1cqs4vdgt6592|7b420819, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-07-03 15:33:36  [ Thread-5:15974 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@1d057a39: startup date [Sun Jul 03 15:33:23 CST 2016]; root of context hierarchy

@@ -18,7 +18,7 @@ import org.springframework.test.context.junit4.*;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "classpath:applicationContext.xml")
 public class TestUser extends AbstractTransactionalJUnit4SpringContextTests{
-	@Autowired
+//	@Autowired
 	private SessionFactory sessionFactory;
 	
 	@Test
@@ -26,11 +26,11 @@ public class TestUser extends AbstractTransactionalJUnit4SpringContextTests{
 	{
 		Session session = sessionFactory.getCurrentSession();
 		session.beginTransaction();
-		List<User> uList = session.createQuery("select u from User u").list();
-		System.out.println(uList.isEmpty());
-		for(User u:uList){
-			System.out.println("NickName:"+u.getNickName());
-		}
+//		List<User> uList = session.createQuery("select u from User u").list();
+//		System.out.println(uList.isEmpty());
+//		for(User u:uList){
+//			System.out.println("NickName:"+u.getNickName());
+//		}
 		session.getTransaction().commit();
 		session.close();
 	}
@@ -60,3 +60,5 @@ public class TestUser extends AbstractTransactionalJUnit4SpringContextTests{
 		*/
 //	}
 }
+
+ 
