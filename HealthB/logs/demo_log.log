@@ -411,3 +411,93 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:553)
 	... 28 more
 2016-07-01 14:17:36  [ Thread-5:22486 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@1794d431: startup date [Fri Jul 01 14:17:17 CST 2016]; root of context hierarchy
+2016-07-01 17:18:34  [ main:1350 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-07-01 17:18:36  [ main:3343 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@6d4b1c02: startup date [Fri Jul 01 17:18:36 CST 2016]; root of context hierarchy
+2016-07-01 17:18:40  [ main:6535 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-07-01 17:18:40  [ main:6595 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2016-07-01 17:18:40  [ main:6616 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-07-01 17:18:40  [ main:6636 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-07-01 17:18:40  [ main:6887 ] - [ INFO ]  HHH000044: Configuring from URL: file:/C:/Users/Baum518/git/HealthB/target/classes/hibernate.cfg.xml
+2016-07-01 17:18:40  [ main:7303 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-07-01 17:18:41  [ main:8392 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2016-07-01 17:18:41  [ main:8395 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2016-07-01 17:18:42  [ main:8465 ] - [ INFO ]  HHH010002: C3P0 using driver: com.microsoft.sqlserver.jdbc.SQLServerDriver at URL: jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;
+2016-07-01 17:18:42  [ main:8470 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=testb, password=****, autoReconnectForPools=true}
+2016-07-01 17:18:42  [ main:8473 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-07-01 17:18:42  [ main:9113 ] - [ INFO ]  MLog clients using log4j logging.
+2016-07-01 17:18:43  [ main:10367 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-07-01 17:18:44  [ main:11160 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@a5b20047 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@35e3445d [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1mn1smd9h19znstcrvnlia|363a52f, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@80284f7c [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19znstcrvnlia|3688eb5b, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19znstcrvnlia|9ebe38b, numHelperThreads -> 3 ]
+2016-07-01 17:18:46  [ main:13362 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-07-01 17:18:46  [ main:13441 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-07-01 17:18:51  [ main:18022 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-07-01 17:18:51  [ main:18059 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-07-01 17:18:52  [ main:19320 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-07-01 17:18:52  [ main:19323 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-07-01 17:18:53  [ main:19677 ] - [ INFO ]  HHH000396: Updating schema
+2016-07-01 17:18:53  [ main:20020 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Info
+2016-07-01 17:18:53  [ main:20022 ] - [ INFO ]  HHH000037: Columns: [password, batchno, createtime, producer, simnumber, id, deviceid, deviceidwithchar, devicetype]
+2016-07-01 17:18:53  [ main:20026 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-01 17:18:53  [ main:20031 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273c69fb99]
+2016-07-01 17:18:53  [ main:20152 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Device_Type
+2016-07-01 17:18:53  [ main:20155 ] - [ INFO ]  HHH000037: Columns: [devicename, id, devicetype]
+2016-07-01 17:18:53  [ main:20158 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-01 17:18:53  [ main:20160 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_devic__3214ec273f466844]
+2016-07-01 17:18:54  [ main:21220 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_Record_BloodPressure
+2016-07-01 17:18:54  [ main:21223 ] - [ INFO ]  HHH000037: Columns: [sbp, note, mnc, deletetime, heartrate, cellid, userid, deviceid, lac, deleteuserid, dbp, arrhythmia, mbp, id, isdelete, measuretime]
+2016-07-01 17:18:54  [ main:21225 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-01 17:18:54  [ main:21229 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_recor__3214ec274222d4ef]
+2016-07-01 17:18:54  [ main:21331 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User
+2016-07-01 17:18:54  [ main:21335 ] - [ INFO ]  HHH000037: Columns: [createtime, shenfenzhengid, nickname, id, state, userid, registername, passwordmd5]
+2016-07-01 17:18:54  [ main:21338 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-01 17:18:54  [ main:21341 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user__3214ec2744ff419a]
+2016-07-01 17:18:54  [ main:21436 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Device_Relation
+2016-07-01 17:18:54  [ main:21439 ] - [ INFO ]  HHH000037: Columns: [note, createtime, unbinduserid, unbindtime, id, isunbind, userid, deviceid, deviceuser]
+2016-07-01 17:18:54  [ main:21443 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-01 17:18:54  [ main:21445 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec2747dbae45]
+2016-07-01 17:18:55  [ main:21552 ] - [ INFO ]  HHH000261: Table found: testb.dbo.tb_User_Info
+2016-07-01 17:18:55  [ main:21555 ] - [ INFO ]  HHH000037: Columns: [country, phonenumber2, createtime, birthdate, phonenumber1, address, unsubcibetime, city, openid, medicalhistory, sex, language, userid, realname, realnamepy, province, mobilephone, headimgurl, subscibetime, unsubscibetime, id]
+2016-07-01 17:18:55  [ main:21560 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-07-01 17:18:55  [ main:21563 ] - [ INFO ]  HHH000126: Indexes: [pk__tb_user___3214ec274ab81af0]
+2016-07-01 17:18:55  [ main:21573 ] - [ INFO ]  HHH000232: Schema update complete
+2016-07-01 17:18:56  [ main:23043 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@a5b20047 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@35e3445d [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1mn1smd9h19znstcrvnlia|363a52f, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@80284f7c [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19znstcrvnlia|3688eb5b, jdbcUrl -> jdbc:sqlserver://120.27.7.232:1433;DatabaseName=testb;, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1mn1smd9h19znstcrvnlia|9ebe38b, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-07-01 17:19:01  [ main:27463 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e362c57] to prepare test instance [me.groupb.service.UserServiceTest@482f8f11]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'me.groupb.service.UserServiceTest': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire method: public void org.springframework.test.context.junit4.AbstractTransactionalJUnit4SpringContextTests.setDataSource(javax.sql.DataSource); nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [javax.sql.DataSource] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:384)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:110)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire method: public void org.springframework.test.context.junit4.AbstractTransactionalJUnit4SpringContextTests.setDataSource(javax.sql.DataSource); nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [javax.sql.DataSource] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [javax.sql.DataSource] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:960)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:553)
+	... 28 more
+2016-07-01 17:19:01  [ Thread-5:27572 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@6d4b1c02: startup date [Fri Jul 01 17:18:36 CST 2016]; root of context hierarchy
